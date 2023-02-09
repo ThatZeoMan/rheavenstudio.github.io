@@ -1,6 +1,6 @@
 # Strings
 
-Use [string interpolation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated) to concatenate short strings.
+Use [`string interpolation`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated) to concatenate short strings.
 
 ```cs
 string remixInfo = $"Title: {Beatmap.properties["remixtitle"]}, Creator: {Beatmap.properties["remixauthor"]}";
@@ -16,7 +16,7 @@ string filtersPath = Path.Combine("Application.streamingAssetsPath", "Filters");
 
 ---
 
-When appending strings in loops, use a [StringBuilder](https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder) object.
+When appending strings in loops, use a [`StringBuilder`](https://learn.microsoft.com/en-us/dotnet/api/system.text.stringbuilder) object.
 
 ```cs
 var text = "hello";
