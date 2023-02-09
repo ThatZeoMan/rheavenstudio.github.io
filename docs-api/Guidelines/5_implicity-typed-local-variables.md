@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Implicitly Typed Local Variables
 
 Use implicit typing for local variables when the type of the variable is obvious from the right side of the assignment, or when the precise type is unimportant.

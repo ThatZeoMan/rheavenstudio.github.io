@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Strings
 
 Use [string interpolation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated) to concatenate short strings.

@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Commenting
 
 * Place the comment on a separate line, not at the end of a line of code, or God forbid the start of a line of code.
