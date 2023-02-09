@@ -25,13 +25,13 @@ In the following examples, any of the functions or members belonging to elements
 Use pascal casing (“PascalCasing”) when naming a `class` or `struct`.
 
 ```cs
-public class Conductor
+public class GameManager
 {
 }
 ```
 
 ```cs
-public struct Theme
+public struct CustomTheme
 {
 }
 ```
@@ -39,7 +39,7 @@ public struct Theme
 When naming an `interface`, use pascal casing in addition to prefixing the name with an I. This indicates to other programmers that it’s an `interface`.
 
 ```cs
-public interface Animal
+public interface IAnimal
 {
 }
 ```
