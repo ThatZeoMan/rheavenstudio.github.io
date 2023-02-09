@@ -95,8 +95,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/API/intro',
+                label: 'Editor',
+                to: '/docs/intro',
+              },
+              {
+                label: 'API',
+                to: '/docs-api/intro',
               },
             ],
           },
@@ -104,29 +108,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/2kdZ8kFyEN',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCAb3R-5qyXWOEj8B4vibhxQ',
               },
             ],
           },
