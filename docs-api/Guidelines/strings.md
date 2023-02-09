@@ -12,7 +12,7 @@ string remixInfo = $"Title: {Beatmap.properties["remixtitle"]}, Creator: {Beatma
 
 ---
 
-Use Path.Combine to concatenate system and local paths.
+Use `Path.Combine` to concatenate system and local paths.
 
 ```cs
 string filtersPath = Path.Combine("Application.streamingAssetsPath", "Filters");

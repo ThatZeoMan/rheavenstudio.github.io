@@ -18,7 +18,7 @@ int var3 = Convert.ToInt32(24.07);
 string var4 = Starpelly.RGB2Hex(new Color(1, 1, 1, 1));
 
 var var5 = (int)Starpelly.Mathp.Normalize(0, 1, 1);
-var var6 = Mathf.Clamp01(0.8f).ToString();
+string var6 = Mathf.Clamp01(0.8f).ToString();
 ```
 
 Do not use a variable name to specify the type of the variable. In every scenario you have to do this, there is a way to avoid it.
