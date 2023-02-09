@@ -54,9 +54,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'docs-api',
-        path: 'docs-api',
-        routeBasePath: 'docs-api',
+        id: 'docs-contributing',
+        path: 'docs-contributing',
+        routeBasePath: 'docs-contributing',
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
@@ -81,10 +81,10 @@ const config = {
             activeBaseRegex: `/docs/`,
           },
           {
-            to: '/docs-api/intro',
-            label: 'API',
+            to: '/docs-contributing/intro',
+            label: 'Contributing',
             position: 'left',
-            activeBaseRegex: `/docs-api/`,
+            activeBaseRegex: `/docs-contributing/`,
           }
         ],
       },
@@ -99,8 +99,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'API',
-                to: '/docs-api/intro',
+                label: 'Contributing',
+                to: '/docs-contributing/intro',
               },
             ],
           },
