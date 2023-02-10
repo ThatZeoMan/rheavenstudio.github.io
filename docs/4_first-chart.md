@@ -25,7 +25,7 @@ Let's get started with your first remix.
 
 If all previous steps were done correctly, we should have something like this.
 
-<ReactPlayer controls url='./assets/firstchart/music.mp4' />
+<ReactPlayer controls url='/vid/firstchart/music.mp4' />
 
 ### Charting the remix
 Let's start charting the remix.
@@ -54,12 +54,12 @@ Note: you can right click at the beats bar to select when to start playback
 
 This is how it looks and sounds like at the end.
 
-<ReactPlayer controls url='./assets/firstchart/progress.mp4' />
+<ReactPlayer controls url='/vid/firstchart/progress.mp4' />
 
 
 Continue charting your remix as you wish, here's what I came up with at the end.
 
-<ReactPlayer controls url='./assets/firstchart/kmangba.mp4' />
+<ReactPlayer controls url='/vid/firstchart/kmangba.mp4' />
 
 
 Here's the [download of the remix I made](./assets/firstchart/kmangba.riq) if you need to look at it.
