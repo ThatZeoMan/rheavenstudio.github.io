@@ -2,6 +2,8 @@
 sidebar_position: 4
 ---
 
+import ReactPlayer from 'react-player'
+
 # Making your first remix with Heaven Studio
 
 Let's get started with your first remix.
@@ -23,7 +25,7 @@ Let's get started with your first remix.
 
 If all previous steps were done correctly, we should have something like this.
 
-[PUT music.mp4 HERE]
+<ReactPlayer controls url='./assets/firstchart/music.mp4' />
 
 ### Charting the remix
 Let's start charting the remix.
@@ -52,12 +54,13 @@ Note: you can right click at the beats bar to select when to start playback
 
 This is how it looks and sounds like at the end.
 
-[PUT progress.mp4 HERE]
+<ReactPlayer controls url='./assets/firstchart/progress.mp4' />
 
 
 Continue charting your remix as you wish, here's what I came up with at the end.
 
-[PUT kmangba.mp4 HERE]
+<ReactPlayer controls url='./assets/firstchart/kmangba.mp4' />
+
 
 Here's the [download of the remix I made](./assets/firstchart/kmangba.riq) if you need to look at it.
 
