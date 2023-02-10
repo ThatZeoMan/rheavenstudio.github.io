@@ -67,6 +67,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{
+          name: "og:description",
+          content: "Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."
+      }],
       // Replace with your project's social card
       image: 'img/HSBanner.png',
       navbar: {
@@ -75,10 +79,6 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/appLogo.png',
         },
-       metadata: [{
-        name: "og:description",
-        content: "Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."
-        }],
         items: [
           {
             to: '/docs/intro',
