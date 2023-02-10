@@ -7,14 +7,14 @@ Follow this [webpage](https://docs.unity3d.com/hub/manual/InstallHub.html#instal
 ### RHEL/CentOS
 Follow this [webpage](https://docs.unity3d.com/hub/manual/InstallHub.html#install-hub-linux).
 
+### Fedora
+Follow this [tutorial](https://www.reddit.com/r/Fedora/comments/wupxy7/how_to_install_correctly_unity_hub_on_fedora/).
+
 ### Arch Linux/Arch-based/Manjaro/EndeavourOS
 Assuming you use `paru` as your AUR helper (like a useful human being)
 ```sh
 paru -S unityhub
 ```
-
-### Fedora
-Follow this [tutorial](https://www.reddit.com/r/Fedora/comments/wupxy7/how_to_install_correctly_unity_hub_on_fedora/).
 
 
 ## Installing Unity itself
@@ -34,7 +34,7 @@ Follow this [tutorial](https://www.reddit.com/r/Fedora/comments/wupxy7/how_to_in
 ![version](../assets/thirdstep.png)
 
 
-## Common possible issue
+## Common possible issues
 I (the person writing this part of the document) have an issue where Unity can't start at all sometimes or will show empty errors in the project, to solve this, I had to run unityhub using this command right here
 ```sh
 DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 unityhub
