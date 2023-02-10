@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
         <Head>
           <meta property="og:description"/>
-          <meta property="og:image" content="https://rheavenstudio.github.io/img/HSBanner.png"/>
+          <meta property="og:image:secure_url" content="https://rheavenstudio.github.io/img/HSBanner.png"/>
         </Head>
         <Redirect to='/docs/intro' />
     </Layout>
