@@ -60,8 +60,17 @@ const config = {
         path: 'docs-contributing',
         routeBasePath: 'docs-contributing',
         sidebarPath: require.resolve('./sidebars.js'),
-      },
+      }
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-tips',
+        path: 'docs-tips',
+        routeBasePath: 'docs-tips',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ]
   ],
 
   themeConfig:
@@ -121,7 +130,13 @@ const config = {
             label: 'Contributing',
             position: 'left',
             activeBaseRegex: `/docs-contributing/`,
-          }
+          },
+          {
+            to: '/docs-tips/intro',
+            label: 'Tips',
+            position: 'left',
+            activeBaseRegex: `/docs-tips/`,
+          },
         ],
       },
       footer: {
@@ -137,6 +152,10 @@ const config = {
               {
                 label: 'Contributing',
                 to: '/docs-contributing/intro',
+              },
+              {
+                label: 'Tips',
+                to: '/docs-tips/intro',
               },
             ],
           },
