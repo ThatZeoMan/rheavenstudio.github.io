@@ -8,28 +8,49 @@ This'll be a long one, just CTRL + F your distro or look it up online lmao.
 ```sh
 sudo apt-get update
 ```
-2. Install Git
+2. Install Git using apt
 ```sh
 sudo apt-get install git
 ```
-3. To verify the installation was successful
+3. Verify the installation was successful
+```sh
+git --version
+```
+
+### Fedora
+1. Install Git using dnf
+```sh
+sudo dnf install git
+```
+2. Verify the installation was successful
 ```sh
 git --version
 ```
 
 ### Arch Linux/Arch-based/Manjaro/EndeavourOS
 You probably already have git installed but:
-1. Just run this command
+1. Install Git using pacman
 ```sh
 sudo pacman -Syu git
 ```
-2. To verify the installation was successful
+2. Verify the installation was successful
+```sh
+git --version
+```
+
+### RHEL/CentOS
+1. Install Git using yum
+```sh
+yum install git
+```
+2. Verify the installation was successful
 ```sh
 git --version
 ```
 
 ### Gentoo
 why are you even reading this.
+
 
 ## Cloning the repository
 1. Open your fork on GitHub.
