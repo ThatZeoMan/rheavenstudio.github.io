@@ -23,9 +23,9 @@ DJ School is a **Cue Based Game**
 |`Break, C'mon!`|Ooh|checkbox|If on, DJ Yellow says the "ooh" part of his cue.|
 |`Scratch-o`|Voice|Standard, Cool, Hyped|Changes the tone DJ Yellow says his cue.|
 
-### Tips
-- Make sure to match the Voice of adjacent `Break, C'mon!` and `Scratch-o` cues!
-
 ### Legality
-- No two cues should start at the same time, with the exception of `Switch Game` or `Bop` or `Scratchy Music`
+- No two cues should start at the same time, with the exception of `Switch Game`, `Bop`, or `Scratchy Music`
 - Student should not be expected to both stop and spin the record at the same time
+
+### Known Bugs
+- At BPMs lower than 120, `Bop` can interrupt other animations.
