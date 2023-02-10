@@ -44,8 +44,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           lastVersion: 'current',
           onlyIncludeVersions: ['current'],
-          showLastUpdateAuthor: true,
-          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,8 +60,6 @@ const config = {
         path: 'docs-contributing',
         routeBasePath: 'docs-contributing',
         sidebarPath: require.resolve('./sidebars.js'),
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
       },
     ],
   ],
@@ -73,6 +69,40 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/HSBanner.png',
+      metadata: [
+        {
+          name: "og:description",
+          content: "Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."
+        },
+        {
+          name: "og:url",
+          content: "https://rheavenstudio.github.io/"
+        },
+        {
+          name: "og:image",
+          content: "https://raw.githubusercontent.com/RHeavenStudio/rheavenstudio.github.io/main/static/img/HSBanner.png"
+        },
+        {
+          name: "og:image:secure_url",
+          content: "https://raw.githubusercontent.com/RHeavenStudio/rheavenstudio.github.io/main/static/img/HSBanner.png"
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image"
+        },
+        {
+          name: "twitter:url",
+          content: "https://rheavenstudio.github.io/"
+        },
+        {
+          name: "twitter:description",
+          content: "Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."
+        },
+        {
+          name: "twitter:image",
+          content: "https://raw.githubusercontent.com/RHeavenStudio/rheavenstudio.github.io/main/static/img/HSBanner.png"
+        },
+      ],
       navbar: {
         title: 'Heaven Studio',
         logo: {

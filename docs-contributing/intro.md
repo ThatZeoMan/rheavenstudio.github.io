@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import {HeaderBadgesWidget} from '../src/components/HeaderWidget.js';
+
 # Introduction
 
 Heaven Studio is written in the C# programming language using the Unity game engine.
@@ -10,6 +12,4 @@ If you are unfamiliar with C# or Unity, it is recommended that you take the time
 
 If you understand the basics of both, let’s get started.
 
-import {HeaderBadgesWidget} from '../src/components/HeaderWidget.js';
-
-<HeaderBadgesWidget />
+<HeaderBadgesWidget commaDelimitedContributors="Starpelly" lastDateString="2/9/23" />
