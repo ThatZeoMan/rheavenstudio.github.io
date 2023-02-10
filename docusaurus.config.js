@@ -69,28 +69,6 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/HSBanner.png',
-      metadata: [
-        {
-            name: "og:description",
-            content: "Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."
-        },
-        {
-            name: "og:image:secure_url",
-            content: 'https://rheavenstudio.github.io/img/HSBanner.png'
-        },
-        {
-            name: "og:image:type",
-            content: "image/png"
-        },
-        {
-            name: "og:image:width",
-            content: "1200"
-        },
-        {
-            name: "og:image:height",
-            content: "500"
-        }
-      ],
       navbar: {
         title: 'Heaven Studio',
         logo: {

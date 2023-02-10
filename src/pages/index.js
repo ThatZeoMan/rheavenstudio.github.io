@@ -7,11 +7,16 @@ export default function Home() {
   return (
     <Layout>
         <Head>
-          <meta property="og:description"/>
-          <meta property="og:image:secure_url" content="https://rheavenstudio.github.io/img/HSBanner.png"/>
-          <meta property="og:image:type" content="image/png"/>
-          <meta property="og:image:width" content="1200"/>
-          <meta property="og:image:height" content="500"/>
+          <meta property="og:type" content="website"/>
+          <meta property="og:url" content="https://rheavenstudio.github.io/"/>
+          <meta property="og:description" content="Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."/>
+          <meta property="og:image" content="https://github.com/img/HSBanner.png"/>
+
+
+          <meta property="twitter:card" content="summary_large_image"/>
+          <meta property="twitter:url" content="https://rheavenstudio.github.io/"/>
+          <meta property="twitter:description" content="Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."/>
+          <meta property="twitter:image" content="https://github.com/img/HSBanner.png"/>
         </Head>
         <Redirect to='/docs/intro' />
     </Layout>
