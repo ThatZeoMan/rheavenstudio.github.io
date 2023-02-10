@@ -67,6 +67,14 @@ Here's the [download of the remix I made](./assets/firstchart/kmangba.riq) if yo
 1. Download and install Audacity
 2. Open your music file in Audacity
 3. Zoom into the start of the music file in the timeline of Audacity
-4. Set the cursor right at the start of the music
+4. Set the cursor right at the start of the music (usually right after the silence at the start of the music file, sometimes a bit after like in Karate Man (GBA))
 5. Check the time at the bottom, take the last 3 numbers, that's your offset in milliseconds.
+
 ![audacity](./assets/firstchart/audacity.png)
+
+6. Put the offset in Heaven Studio
+7. To make sure the offset you got is right, check the waveform, if the beats in the waveform match the timeline's beats, you are good to go.
+
+Note: beats are usually the longest parts of a waveform, check image below for reference
+
+![waveform](./assets/firstchart/waveform.png)
