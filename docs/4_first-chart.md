@@ -64,7 +64,8 @@ Here's the [download of the remix I made](./assets/firstchart/kmangba.riq) if yo
 
 ### Getting the Song offset
 
-1. Download and install Audacity
+1. Download Audacity
+(For Windows/MacOS users, get it from [Audacity's webpage](https://www.audacityteam.org/download/), Linux users check instructions for your distro online.)
 2. Open your music file in Audacity
 3. Zoom into the start of the music file in the timeline of Audacity
 4. Set the cursor right at the start of the music (usually right after the silence at the start of the music file, sometimes a bit after like in Karate Man (GBA))
