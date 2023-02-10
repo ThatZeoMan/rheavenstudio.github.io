@@ -29,21 +29,25 @@ namespace HeavenStudio.Games
 
 ```
 
-## Properties
+## Public Properties
 
-| Name                      | Info                                                                               | Returns     |
-|---------------------------|------------------------------------------------------------------------------------|-------------|
-| songBpm                   | Song beats per minute. This is determined by the song you're trying to sync up to. | float       |
-| secPerBeat                | The number of seconds for each song beat.                                          | float       |
-| songPosition              | Current song position, in seconds.                                                 | float       |
-| songPositionInBeats       | Current song position, in beats.                                                   | float       |
-| startBeatAsDouble         | The beat we started at. (double)                                                   | double      |
-| musicSource               | The `AudioSource` the `Conductor` will read from.                                  | AudioSource |
-| firstBeatOffset           | The offset to the first beat of the song in seconds.                               | float       |
-| isPlaying                 | Returns true if the `Conductor` is currently playing the selected song.            | bool        |
-| isPaused                  | Returns true if the `Conductor` is currently paused, but not fully stopped.        | bool        |
-| metronome                 | If enabled, a metronome will play a *tick* sound every beat.                       | bool        |
-| timeSinceLastTempoChange  | The time in seconds since the `songBpm` changed.                                   | float       |
+| Name                        | Info                                                                                                   | Returns     |
+| --------------------------- | ------------------------------------------------------------------------------------------------------ | ----------- |
+| songBpm                     | Song beats per minute. This is determined by the song you're trying to sync up to.                     | float       |
+| secPerBeat                  | The number of seconds for each song beat.                                                              | float       |
+| pitchedSecPerBeat           | The number of seconds for each song beat, inversely scaled to song pitch (higer pitch = shorter time). | float       |
+| songPosition                | Current song position, in seconds.                                                                     | float       |
+| songPositionAsDouble        | Current song position, in seconds.                                                                     | double      |
+| songPositionInBeats         | Current song position, in beats.                                                                       | float       |
+| songPositionInBeatsAsDouble | Current song position, in beats.                                                                       | double      |
+| dspStartTimeAsDouble        | The `dspTime` the `Conductor` started at.                                                              | double      |
+| startBeatAsDouble           | The beat we started at. (double)                                                                       | double      |
+| musicSource                 | The `AudioSource` the `Conductor` will read from.                                                      | AudioSource |
+| firstBeatOffset             | The offset to the first beat of the song in seconds.                                                   | float       |
+| isPlaying                   | Returns true if the `Conductor` is currently playing the selected song.                                | bool        |
+| isPaused                    | Returns true if the `Conductor` is currently paused, but not fully stopped.                            | bool        |
+| metronome                   | If enabled, a metronome will play a *tick* sound every beat.                                           | bool        |
+| timeSinceLastTempoChange    | The time in seconds since the `songBpm` changed.                                                       | float       |
 
 ## Public Methods
 
