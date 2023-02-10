@@ -126,16 +126,16 @@ const config = {
             activeBaseRegex: `/docs/`,
           },
           {
-            to: '/docs-contributing/intro',
-            label: 'Contributing',
-            position: 'left',
-            activeBaseRegex: `/docs-contributing/`,
-          },
-          {
             to: '/docs-tips/intro',
             label: 'Tips',
             position: 'left',
             activeBaseRegex: `/docs-tips/`,
+          },
+          {
+            to: '/docs-contributing/intro',
+            label: 'Contributing',
+            position: 'left',
+            activeBaseRegex: `/docs-contributing/`,
           },
         ],
       },
@@ -150,12 +150,12 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Contributing',
-                to: '/docs-contributing/intro',
-              },
-              {
                 label: 'Tips',
                 to: '/docs-tips/intro',
+              },
+              {
+                label: 'Contributing',
+                to: '/docs-contributing/intro',
               },
             ],
           },
