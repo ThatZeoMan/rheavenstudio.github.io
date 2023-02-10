@@ -18,7 +18,7 @@ The Clappy Trio is a **Cue Based Game**
 |Event|Variable|Options|Description|
 |---|---|---|---|
 |`Prepare Stance`|Alt|checkbox|If checked, the lion's faces will become<br></br> determined|
-|`Change Lion Count`|Lion Count|1-8|Changes the current lion count|
+|`Change Lion Count`|Lion Count|3-8|Instantly changes the current lion count|
 
 ### Tips
 - Turning on the `Alt` property in the `Prepare Stance` is best used before a particularly tricky `Clap`
@@ -30,6 +30,7 @@ The Clappy Trio is a **Cue Based Game**
 - There should always be a `Prepare Stance` before any `Clap`
 
 ### Known Bugs
-- `Bop` causes the lions to show the "miss" face after two bops if:
+- `Bop` causes the lions to show the "miss" face if:
 	- there has been at least one `Clap` before that point anywhere in the remix
 	- the current The Clappy Trio segment has not had any `Clap` cues before that point
+- Background is not properly fitted to the screen, resulting in a black bar on the right of the game. Will be fixed with a background upscale.
