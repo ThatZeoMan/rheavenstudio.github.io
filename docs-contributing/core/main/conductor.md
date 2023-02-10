@@ -6,6 +6,8 @@ The `Conductor` is mostly used in games to calculate the positions of animations
 
 You can play a single `AudioClip` using `Play`, `Pause` and `Stop`. You can adjust its volume with `SetVolume`, or seek using the multiple *songPositions*.
 
+## Example
+
 ```cs
 using UnityEngine;
 
