@@ -44,6 +44,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           lastVersion: 'current',
           onlyIncludeVersions: ['current'],
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,6 +62,8 @@ const config = {
         path: 'docs-contributing',
         routeBasePath: 'docs-contributing',
         sidebarPath: require.resolve('./sidebars.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
     ],
   ],
