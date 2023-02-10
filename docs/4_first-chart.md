@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 
 Let's get started with your first remix.
 
-## Selecting the music and setting bpm
+## Selecting the music and setting BPM
 
 1. Select the music file from the top left, supported formats are: `.mp3`, `.wav`, and `.ogg`
 
@@ -67,6 +67,8 @@ Here's the [download of the remix I made](./assets/firstchart/kmangba.riq) if yo
 
 ### Getting the Song offset
 
+In some audio files, the song doesn't start immediately after the file begins, the song offset indicates the delay between the start of the file and the start of the music, this should help you figure out the offset.
+
 1. Download Audacity
 (For Windows/MacOS users, get it from [Audacity's webpage](https://www.audacityteam.org/download/), Linux users check instructions for your distro online.)
 2. Open your music file in Audacity
@@ -82,3 +84,4 @@ Here's the [download of the remix I made](./assets/firstchart/kmangba.riq) if yo
 Note: beats are usually the longest parts of a waveform, check image below for reference
 
 ![waveform](./assets/firstchart/waveform.png)
+
