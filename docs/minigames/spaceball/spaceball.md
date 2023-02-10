@@ -26,12 +26,12 @@ Spaceball is a **Cue Based Game**
 ### Tips
 - There are a lot of ease types for `Zoom Camera`. Experiment to find which one works for you!
 - When changing the `Change Batter Costume` Type, it will look more seamless if you do it while the `Zoom Camera` Zoom is at a higher value.
-- `switchGame` resets the `Zoom Camera` Zoom to 10.
-- `switchGame` also changes the `Change Batter Costume` Type to Standard.
+- `Switch Game` resets the `Zoom Camera` Zoom to 10.
+- `Switch Game` also changes the `Change Batter Costume` Type to Standard.
 
 ### Legality
 - There should always be a `Dispenser Prepare` before `Pitch Ball` or `Pitch High Ball`
-- `Pitch Ball` or `shoothigh` should never start on the same beat as any other cue, with the exception of `switchGame`
+- `Pitch Ball` or `Pitch High Ball` should never start on the same beat as any other cue, with the exception of `Switch Game`
 - You should never hit two balls at the same time
 
 ### Known Bugs
