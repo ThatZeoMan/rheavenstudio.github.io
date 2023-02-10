@@ -72,6 +72,10 @@ const config = {
       metadata: [{
           name: "og:description",
           content: "Heaven Studio is a (WIP) Rhythm Heaven level editor made in Unity."
+      },
+      {
+          name: "og:image",
+          content: 'https://rheavenstudio.github.io/img/HSBanner.png'
       }],
       navbar: {
         title: 'Heaven Studio',
