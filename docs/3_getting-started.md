@@ -24,7 +24,7 @@ Heaven Studio's UI is easy to understand, everything is explained below.
 
 **7. Minigames, here you can select minigames to use in your remix**
 
-**8. Events selection, here you can seelect the minigame events to use in your remix**
+**8. Events selection, here you can select the minigame events to use in your remix**
 
 **9. Timeline tools, which in order are: Zoom in/Out, Reset Zoom, Toggle Waveform, Change snapping**
 
