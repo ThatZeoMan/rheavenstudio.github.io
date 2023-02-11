@@ -34,6 +34,7 @@ High chances, you'll get the BPM wrong, like this example here.
 (Song is PinocchioP - Apple dot com)
 
 <ReactPlayer controls url='/vid/bpm/tapalongwrong.mp4' />
+<br></br>
 
 After using one of the other methods, the correct BPM is`153BPM`
 
