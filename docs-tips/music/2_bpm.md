@@ -13,7 +13,7 @@ BPM is the measurment of amount of beats per minute in a song, `120BPM` is 120 b
 
 Finding the BPM is really important to have a synced rhythm game chart in general, specially in a game like Rhythm Heaven where audio cues ***that have to fit the music*** are used instead of the usual Visual Reaction Game formula where you just see notes on the screen to click.
 
-There's multiple ways you can find the BPM of a song, we'll go from the easiest to hardest
+There's multiple ways you can find the BPM of a song, we'll go from the most common to least common.
 
 
 ## Tapping along
