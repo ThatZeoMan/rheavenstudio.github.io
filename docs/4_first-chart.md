@@ -19,7 +19,7 @@ Let's get started with your first remix.
 
 ![songoffset](./assets/firstchart/songoffset.png)
 
-3. Set the BPM, we'll be using Karate Man (GBA) in this tutorial, which is 119BPM.
+3. Set the BPM, we'll be using Karate Man (GBA) in this tutorial, which is 119BPM. You can check [this page](/docs-tips/music/bpm) if you want more information on how to find the BPM of the song you're using.
 
 ![bpm](./assets/firstchart/bpm.png)
 
@@ -57,11 +57,11 @@ Note: you can right click at the beats bar to select when to start playback
 This is how it looks and sounds like at the end.
 
 <ReactPlayer controls url='/vid/firstchart/progress.mp4' />
-
+<br></br>
 
 Continue charting your remix as you wish, here's what I came up with at the end.
 
 <ReactPlayer controls url='/vid/firstchart/kmangba.mp4' />
-
+<br></br>
 
 Here's the [download of the remix I made](./assets/firstchart/kmangba.riq) if you need to look at it.
