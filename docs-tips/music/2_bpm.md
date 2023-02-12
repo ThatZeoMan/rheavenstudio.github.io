@@ -58,10 +58,37 @@ There are multiple tools online to automatically check the BPM of a music file f
 One of the tools used for that is [GetSongbpm's tool](https://getsongbpm.com/tools/audio), keep in mind it only works with the `mp3` format.
 
 
+## Using a DAW
+Most DAWs have a built-in tempo checker, they may be inaccurate sometimes, so a manual method will also be explained if needed, only Ableton and FL Studio will be covered here.
+
+### FL Studio
+#### Automatically
+FL Studio comes with a somewhat good built-in automatic BPM checker, to access it click on the wave icon on the top left of the audio (next to the name of it) you have dragged to the timeline then click "Detect tempo".
+
+![flmenu](./assets/bpm/flmenu.png)
+
+A window will appear asking you to put in the BPM range of the audio file you are trying to detect BPM of, recommended ranges are `75BPM-150BPM` and `100BPM-200BPM`.
+
+![fltempodetect](./assets/bpm/fltempodetect.png)
+
+Using the song used above (PinocchioP - Apple dot com), FL Studio detected the tempo as `153.002BPM`, which is accurate, but we do not need the `.002BPM`.
+Results may vary depending on the song, specially if it has BPM changes.
+
+![fltempodetected](./assets/bpm/fldetected.png)
+
+#### Manually
+
+<WIP\>
+
+### Ableton
+This section is written for Ableton Live 11, if you use an older version please update.
+
+
 ## Checking charts from other rhythm games
 There's ALWAYS an osu! chart for the song you are remixing.
 
 Most rhythm games have the BPM accessible from the chart file they use, some games like osu! use milliseconds for beats instead of BPM, in which case you'd need to download the game and check in it's editor, this is the best method so far in my opinion.
+
 
 ## Checking a fandom wikia
 This works like a charm, a lot of times.
