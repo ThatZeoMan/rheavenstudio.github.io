@@ -9,7 +9,7 @@ import {HeaderBadgesWidget} from '../../src/components/HeaderWidget.js';
 
 In some audio files, the song doesn't start immediately after the file begins, the song offset indicates the delay between the start of the file and the start of the music, this should help you figure out the offset.
 
-1. Download Audacity
+1. Download Audacity.
 (For Windows/MacOS users, get it from [Audacity's webpage](https://www.audacityteam.org/download/), Linux users check instructions for your distro online.)
 2. Open your music file in Audacity
 3. Zoom into the start of the music file in the timeline of Audacity
@@ -18,7 +18,7 @@ In some audio files, the song doesn't start immediately after the file begins, t
 
 ![audacity](./assets/offset/audacity.png)
 
-6. Put the offset in Heaven Studio
+6. Set the offset in Heaven Studio.
 7. To make sure the offset you got is right, check the waveform, if the beats in the waveform match the timeline's beats, you are good to go.
 
 Note: beats are usually the longest parts of a waveform, check image below for reference
