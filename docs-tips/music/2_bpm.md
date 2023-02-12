@@ -78,11 +78,35 @@ Results may vary depending on the song, specially if it has BPM changes.
 
 #### Manually
 
-<WIP\>
+Adjusting the tempo manually starts pretty similarly to the automatic method. Just drag in an audio file.
+![flmanualoffgrid](./assets/bpm/flmanualoffgrid.png)
+
+
+Notice the peaks in the waveform? These are what we're going to use to find the tempo.
+
+Parts of the waveform with little start-up or "attack" tend to be more accurate with this method, which are highlighted in green. The section highlighted in red has a lot more attack, so it has some ambiguity on where it starts.
+![flmanualhighlight](./assets/bpm/flmanualhighlight.png)
+
+
+The grid in most DAWs are divided up into beats. Once we align this audio file to that grid, it will be in tempo.
+![flemptygrid](./assets/bpm/flemptygrid.png)
+
+In order to do that, adjust the project bpm, which is listed on the top of the screen, until these peaks are situated on the lines of the grid. You might need to zoom in a bit to make sure it's situated just right.
+![flmanualongrid](./assets/bpm/flmanualongrid.png)
+
+This is why we wanted sections with little attack. The start of the section is more defined, making it easier to align.
+Once each one of these sections is on the grid, you may need to adjust as you scroll through your song, your project bpm should be
+the song's tempo.
 
 ### Ableton
-This section is written for Ableton Live 11, if you use an older version please update.
+#### Automatic
+In Ableton Live 11, Ableton automatically detect the tempo of an audio file once it's inserted in the timeline.
 
+To view the detected tempo click on the audio file after inserting it to the timeline.
+![ableton](./assets/bpm/abletontempo.png)
+
+#### Manual
+Check the manual method in FL Studio right above, the method is similar.
 
 ## Checking charts from other rhythm games
 There's ALWAYS an osu! chart for the song you are remixing.
@@ -95,4 +119,4 @@ This works like a charm, a lot of times.
 
 A lot of fandom wikias contain the BPMs of popular songs from that fandom's media, this is your best option specially if you are going to remix a Vocaloid or a Touhou song.
 
-<HeaderBadgesWidget commaDelimitedContributors="Saraistupid" lastDateString="2/11/23" />
+<HeaderBadgesWidget commaDelimitedContributors="Saraistupid" lastDateString="2/12/23" />
