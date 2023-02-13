@@ -4,12 +4,15 @@ sidebar_position: 1
 
 import {HeaderBadgesWidget} from '../../src/components/HeaderWidget.js';
 
-
 # Finding the song offset
 
 In most audio files, the song doesn't start immediately after the file begins. The song offset indicates the delay between the start of the audio stream and the start of the first beat. This section should help you figure out the offset.
 
 **_Finding the song offset is perhaps the most important part of remixing. This will determine if your song is on-beat. Make sure you get the song offset correctly before continuing._**
+
+## Selecting the music
+
+1. Import a music file from the top left. Supported formats are: `.mp3`, `.wav`, and `.ogg`
 
 ## Method 1: Audio Editor
 For the purposes of this guide, we will be using Audacity.
@@ -21,7 +24,7 @@ For the purposes of this guide, we will be using Audacity.
 4. Set the cursor right at the start of the first beat (usually right after the silence at the start of the music file, sometimes a bit after like in Karate Man (GBA))
 5. Check the time at the bottom. Take the last 3 numbers, and that's your offset in milliseconds. 
 
-![audacity](./assets/offset/audacity.png)
+![audacity](/docs-tips/music/assets/offset/audacity.png)
 
 6. Set the offset in Heaven Studio. Type those 3 numbers (without a decimal point) into the "Song Offset" box at the top of the Heaven Studio window.
 7. To make sure the offset you got is right, check the waveform. If the beats in the waveform match the timeline's beats, you are good to go.
@@ -42,6 +45,6 @@ This method is usually less accurate. This method only works if you have already
 
 Note: Beats are usually the longest parts of a waveform. Check the image below for reference
 
-![waveform](./assets/offset/waveform.png)
+![waveform](/docs-tips/music/assets/offset/waveform.png)
 
 <HeaderBadgesWidget commaDelimitedContributors="ThatZeoMan" lastDateString="2/13/23" />
