@@ -21,11 +21,11 @@ This is a really common and known method to find the BPM of a song, it's not alw
 
 In Heaven Studio finding the "Tapping along" option isn't hard, on the top left corner find the mouse icon next to the Music Selection icon.
 
-![tabtn](./assets/bpm/tapalongbutton.png)
+![tabtn](/img/docs-tips/music/bpm/tapalongbutton.png)
 
 A window will appear after you click the icon, you can click the icon in the window with the music to find the bpm.
 
-![tashow](./assets/bpm/tapalongshowcase.gif)
+![tashow](/img/docs-tips/music/bpm/tapalongshowcase.gif)
 
 This method isn't always recommended, because it depends on your sense of rhythm.
 
@@ -65,38 +65,38 @@ Most DAWs have a built-in tempo checker, they may be inaccurate sometimes, so a 
 #### Automatically
 FL Studio comes with a somewhat good built-in automatic BPM checker, to access it click on the wave icon on the top left of the audio (next to the name of it) you have dragged to the timeline then click "Detect tempo".
 
-![flmenu](./assets/bpm/flmenu.png)
+![flmenu](/img/docs-tips/music/bpm/flmenu.png)
 
 A window will appear asking you to put in the BPM range of the audio file you are trying to detect BPM of, recommended ranges are `75BPM-150BPM` and `100BPM-200BPM`.
 
-![fltempodetect](./assets/bpm/fltempodetect.png)
+![fltempodetect](/img/docs-tips/music/bpm/fltempodetect.png)
 
 Using the song used above (PinocchioP - Apple dot com), FL Studio detected the tempo as `153.002BPM`, which is accurate, but we do not need the `.002BPM`.
 Results may vary depending on the song, specially if it has BPM changes.
 
-![fltempodetected](./assets/bpm/fldetected.png)
+![fltempodetected](/img/docs-tips/music/bpm/fldetected.png)
 
 #### Manually
 
 Adjusting the tempo manually starts pretty similarly to the automatic method. Just drag in an audio file.
 
-![flmanualoffgrid](./assets/bpm/flmanualoffgrid.png)
+![flmanualoffgrid](/img/docs-tips/music/bpm/flmanualoffgrid.png)
 
 
 Notice the peaks in the waveform? These are what we're going to use to find the tempo.
 
 Parts of the waveform with little start-up or "attack" tend to be more accurate with this method, which are highlighted in green. The section highlighted in red has a lot more attack, so it has some ambiguity on where it starts.
 
-![flmanualhighlight](./assets/bpm/flmanualhighlight.png)
+![flmanualhighlight](/img/docs-tips/music/bpm/flmanualhighlight.png)
 
 
 The grid in most DAWs are divided up into beats. Once we align this audio file to that grid, it will be in tempo.
 
-![flemptygrid](./assets/bpm/flemptygrid.png)
+![flemptygrid](/img/docs-tips/music/bpm/flemptygrid.png)
 
 In order to do that, adjust the project bpm, which is listed on the top of the screen, until these peaks are situated on the lines of the grid. You might need to zoom in a bit to make sure it's situated just right.
 
-![flmanualongrid](./assets/bpm/flmanualongrid.png)
+![flmanualongrid](/img/docs-tips/music/bpm/flmanualongrid.png)
 
 This is why we wanted sections with little attack. The start of the section is more defined, making it easier to align.
 Once each one of these sections is on the grid, you may need to adjust as you scroll through your song, your project bpm should be
@@ -108,7 +108,7 @@ In Ableton Live 11, Ableton automatically detect the tempo of an audio file once
 
 To view the detected tempo click on the audio file after inserting it to the timeline.
 
-![ableton](./assets/bpm/abletontempo.png)
+![ableton](/img/docs-tips/music/bpm/abletontempo.png)
 
 #### Manual
 Check the manual method in FL Studio right above, the method is similar.
@@ -132,19 +132,19 @@ Drag and drop your audio file into ArrowVortex, remember to press F4 to enable t
 
 This is how it should look like so far.
 
-![arrowvortex](./assets/bpm/arrowvortex.png)
+![arrowvortex](/img/docs-tips/music/bpm/arrowvortex.png)
 
 To bring up the automatic sync window, go to "Tempo" then click on "Adjust sync".
 
-![arrowvortextempo](./assets/bpm/arrowvortextempo.png)
+![arrowvortextempo](/img/docs-tips/music/bpm/arrowvortextempo.png)
 
 Then press on "Find BPM".
 
-![arrowvortexsync](./assets/bpm/arrowvortexsync.png)
+![arrowvortexsync](/img/docs-tips/music/bpm/arrowvortexsync.png)
 
 This is how it should look like after ArrowVortex detects the BPM of the song.
 
-![arrowvortexsynced](./assets/bpm/arrowvortexsynced.png)
+![arrowvortexsynced](/img/docs-tips/music/bpm/arrowvortexsynced.png)
 
 Now press Space on your keyboard to play the audio, if the metronome sounds off, go back to the "Adjust sync" window and press on the "0.5" button 1-2 times.
 
