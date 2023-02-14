@@ -8,7 +8,7 @@ After downloading and extracting Heaven Studio, launch the appropriately named "
 
 Heaven Studio's UI is easy to understand, everything is explained below.
 
-![ui](./assets/ui.png)
+![ui](/img/docs/ui.png)
 
 **1. The game preview menu, here you will see the preview of your remix being played.**
 

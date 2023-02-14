@@ -6,11 +6,8 @@ import {HeaderBadgesWidget} from '../src/components/HeaderWidget.js';
 
 # Introduction
 
-This part of the document will cover some tips I've learnt and gathered I and the other writers learnt from our experiences.
+This area of the Heaven Studio docs consists of helpful tips to improve your remixes.
 
-You aren't forced to follow all of these tips, but it's recommended to do so.
-
-Always keep in mind this rule of thumb: Your remix should always sound good and be playable.
-
+Following these tips is not required, but it can help with the remixing process.
 
 <HeaderBadgesWidget commaDelimitedContributors="Saraistupid" lastDateString="2/10/23" />
