@@ -6,6 +6,7 @@
 *.code-workspace
 .changelog
 .history
+.svelte-kit
 
 node_modules
 .yarn
