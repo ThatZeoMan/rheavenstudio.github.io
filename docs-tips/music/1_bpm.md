@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 import ReactPlayer from 'react-player'
@@ -9,11 +9,11 @@ import {HeaderBadgesWidget} from '../../src/components/HeaderWidget.js';
 # Finding the BPM of a song
 
 ## Introduction
-BPM is the measurment of amount of beats per minute in a song, `120BPM` is 120 beats per minute, which is 2 beats per second.
+BPM is the measurment of amount of beats per minute in a song. For example, `120BPM` is 120 beats per minute, which is 2 beats per second.
 
-Finding the BPM is really important to have a synced rhythm game chart in general, specially in a game like Rhythm Heaven where audio cues ***that have to fit the music*** are used instead of the usual Visual Reaction Game formula where you just see notes on the screen to click.
+Finding the BPM is really important to having a synced rhythm game chart in general. In a game like Rhythm Heaven, where audio cues ***have to fit the music exactly***, BPM is even more important than other rhythm games.
 
-There's multiple ways you can find the BPM of a song, we'll go from the most common to least common.
+There's multiple ways you can find the BPM of a song. We'll go from the most common to least common.
 
 
 ## Tapping along
