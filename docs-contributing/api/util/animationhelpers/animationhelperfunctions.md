@@ -1,5 +1,6 @@
 # AnimationHelpers
-In Heaven Studio we have some animation helper functions, that mainly help us "scale" our animations. Scaling means we're syncing the animations to the beat.
+In Heaven Studio we have some animation helper functions, 
+that mainly help us "scale" our animations. Scaling means we're syncing the animations to the beat.
 
 ## Example
 ```cs
@@ -28,6 +29,7 @@ namespace HeavenStudio
 | Name | Info | Returns |
 | :--: | :--: | :-----: |
 | IsAnimationNotPlaying | Returns true if the animator is not currently playing an animation. | bool |
+| IsPlayingAnimationName | Returns true if animName is currently playing on the animator. | bool |
 | DoScaledAnimation | Sets the animator's progress on an animation based on the current song beat between `startTime` and `length`, this must be called in the update loop to update properly. | void |
 | DoNormalizedAnimation | Sets the animator's progress on an animation according to `pos`, starting from 0 and ending at 1. | void |
 | DoScaledAnimationAsync | Plays an animation on the animator at a speed scaled to the song's bpm. Call this function once. | void |
