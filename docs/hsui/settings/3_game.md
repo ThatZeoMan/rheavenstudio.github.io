@@ -27,7 +27,7 @@ Under this category in settings, you can change gameplay settings.
 |---|---|---|
 |`Timing Display Type`|Set the timing display to Dual or Single mode|`Dual` or `Single`|
 |`Enable`|Toggle the timing display|Toggle|
-|`Position`|Set the position of the timing display|Float|
+|`Position`|Set the position of the timing display|Vector2|
 |`Rotation`|Set the rotation of the timing display|Float|
 |`Scale`|Set the scale of the timing display|Float|
 
@@ -35,7 +35,7 @@ Under this category in settings, you can change gameplay settings.
 |Setting|Description|Value|
 |---|---|---|
 |`Enable`|Toggle the skill star|Toggle|
-|`Position`|Set the position of the skill star|Float|
+|`Position`|Set the position of the skill star|Vector2|
 |`Rotation`|Set the rotation of the skill star|Float|
 |`Scale`|Set the scale of the skill star|Float|
 
@@ -43,6 +43,6 @@ Under this category in settings, you can change gameplay settings.
 |Setting|Description|Value|
 |---|---|---|
 |`Enable`|Toggle the section progress|Toggle|
-|`Position`|Set the position of the section progress|Float|
+|`Position`|Set the position of the section progress|Vector2|
 |`Rotation`|Set the rotation of the section progress|Float|
 |`Scale`|Set the scale of the section progress|Float|
