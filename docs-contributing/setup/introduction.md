@@ -8,8 +8,8 @@ Before proceeding, please fork the [repository](https://github.com/megaminerjenn
 
 Then start with installing Git or GitHub Desktop on your machine, select your operating system:
 
-- [Windows](./git/windows/introduction)
-- [MacOS](./git/mac/introduction)
-- [Linux](./git/linux/introduction)
+- [Windows](/docs-contributing/setup/git/windows/introduction)
+- [MacOS](/docs-contributing/setup/git/mac/introduction)
+- [Linux](/docs-contributing/setup/git/linux/introduction)
 
 <HeaderBadgesWidget commaDelimitedContributors="Saraistupid" lastDateString="2/9/23" />
