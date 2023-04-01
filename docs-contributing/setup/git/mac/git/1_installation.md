@@ -31,3 +31,5 @@ git clone THE_LINK_YOU_COPIED_HERE
 ```
 
 **Note: this will clone the repository into your home folder, which is accessed in Finder by pressing Shift + ⌘ + H**
+
+Now continue on to [Installing Unity](/docs-contributing/setup/unity/mac/installation).
