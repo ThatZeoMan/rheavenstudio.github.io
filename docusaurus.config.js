@@ -187,20 +187,25 @@ const config = {
     }),
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar'],
+    locales: ['en', 'ar', 'jp', 'es'],
     path: 'i18n',
     localeConfigs: {
       en: {
         label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-        calendar: 'gregory',
         path: 'en',
       },
       ar: {
         label: 'العربية (مصر)',
         direction: 'rtl',
         path: 'ar',
+      },
+      jp: {
+        label: '日本語',
+        path: 'jp',
+      },
+      es: {
+        label: 'Español',
+        path: 'es',
       },
     },
   },
