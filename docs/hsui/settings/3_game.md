@@ -4,15 +4,15 @@ sidebar_position: 3
 
 # Gameplay Settings
 
-Under this category in settings, you can change gameplay settings.
+Under this tab in Settings, you can change the gameplay settings.
 
 ![ui](/img/docs/hsui/settings/game.png)
 
 |Setting|Description|Value|
 |---|---|---|
-|`Show Overlays in Editor`|Toggle the gameplay overlays in the editor|Toggle|
+|`Show Overlays in Editor`|Toggle the gameplay overlays in the preview window|Toggle|
 |`Simple Timing Displays`|Toggle a timing display with lower effects|Toggle|
-|`Enable Perfect Challenge`|Toggle the perfect challenge|Toggle|
+|`Enable Perfect Challenge`|Toggle the perfect challenge UI|Toggle|
 |`Enable Section Medals`|Toggle section medals|Toggle|
 
 #### Letterbox Background
@@ -25,7 +25,7 @@ Under this category in settings, you can change gameplay settings.
 ### Timing Display
 |Setting|Description|Value|
 |---|---|---|
-|`Timing Display Type`|Set the timing display to Dual or Single mode|`Dual` or `Single`|
+|`Timing Display Type`|Choose how many timing displays are visible|`Dual` or `Single`|
 |`Enable`|Toggle the timing display|Toggle|
 |`Position`|Set the position of the timing display|Vector2|
 |`Rotation`|Set the rotation of the timing display|Float|
@@ -34,7 +34,7 @@ Under this category in settings, you can change gameplay settings.
 ### Skill Star
 |Setting|Description|Value|
 |---|---|---|
-|`Enable`|Toggle the skill star|Toggle|
+|`Enable`|Toggle the skill star (this will also toggle the sound)|Toggle|
 |`Position`|Set the position of the skill star|Vector2|
 |`Rotation`|Set the rotation of the skill star|Float|
 |`Scale`|Set the scale of the skill star|Float|
