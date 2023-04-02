@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Editor Settings
 
-Under this category in settings, you can change the editor's settings.
+Under this tab in Settings, you can change the editor's settings.
 
 ![ui](/img/docs/hsui/settings/editor.png)
 
