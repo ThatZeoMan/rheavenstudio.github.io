@@ -2,30 +2,30 @@
 sidebar_position: 2
 ---
 
-# Quick overlook on the UI
+# Quick overview of the UI
 
-Heaven Studio's UI is easy to understand, everything is explained below.
+Heaven Studio's UI is simple enough for anyone to use. Main editor elements are explained below.
 
 ![ui](/img/docs/ui.png)
 
-**1. The game preview menu, here you will see the preview of your remix being played.**
+**1. The game preview menu.** Here, you will see the preview of your remix being played.
 
-**2. File actions, which in order are: New Remix, Open Remix, Save Remix**
+**2. File actions.** In order, these actions are: New Remix, Open Remix, Save Remix.
 
-**3. Music related actions, which in order are: Tempo Finder (Tapping along), Music Select**
+**3. Music related actions.** In order, these actions are: Tempo Finder, Music Select.
 
-**4. Song offset, set how much time (in milliseconds) between the start of the music file and the start of the actual music**
+**4. Song offset.** Set how much time (in milliseconds) between the start of the audio file and the first beat.
 
-**5. Timeline, where you'll put the events and chart your remix**
+**5. Timeline.** This is where you chart your remix by placing events.
 
-**6. The special entities textbox, which by default is set to BPM (changeable from n.11)**
+**6. Special Entities info.** By default, this is set to BPM (changeable from n.11).
 
-**7. Minigames, here you can select minigames to use in your remix**
+**7. Minigames.** Click on a minigame to view it's events (n.11). Minigames are organized alphabetically.
 
-**8. Events selection, here you can select the minigame events to use in your remix**
+**8. Event selection.** Scroll or use arrow keys to select an event, then drag it onto the Timeline (n.5) to place it.
 
-**9. Timeline tools, which in order are: Zoom in/Out, Reset Zoom, Toggle Waveform, Change snapping**
+**9. Timeline tools.** In order, these tools are: Zoom In, Zoom Out, Reset Zoom, Toggle Waveform, Change Snapping.
 
-**10. Gameplay options, which in order are: Autoplay, Metronome, Preview**
+**10. Gameplay tools.** In order, these tools are: Autoplay, Metronome, Fullscreen Preview.
 
-**11. Special entities tools, which in order are: Selection, Tempo change, Music volume, Beatmap section**
+**11. Special entities tools.** In order, these tools are: Selection, Tempo change, Music volume, Beatmap section**
