@@ -4,63 +4,64 @@ sidebar_position: 1
 
 import ReactPlayer from 'react-player'
 
-# Finding the BPM of a song
+# Encontrar el BPM (tempo) de una canción
 
-## Introduction
-BPM is the measurment of amount of beats per minute in a song. For example, `120BPM` is 120 beats per minute, which is 2 beats per second.
+## Introducción
+BPM es la medida de "tiempos" (subdivisiones del compás) por minuto en una canción. Por ejemplo, `120BPM` es 120 tiempos por minuto (*beats per minute*), es decir, 2 tiempos por segundo.
 
-Finding the BPM is really important to having a synced rhythm game chart in general. In a game like Rhythm Heaven, where audio cues ***have to fit the music exactly***, BPM is even more important than other rhythm games.
+Encontrar el BPM exacto es muy importante en general para sincronizar un juego de ritmo. Y en un juego como Rhythm Heaven, donde los efectos de sonido ***tienen que encajar con la música perfectamente***, el BPM es incluso más importante que en otros juegos de ritmo.
 
-There's multiple ways you can find the BPM of a song. We'll go from the most common to least common.
+Hay varias maneras de encontrar el BPM de una canción. Iremos de soluciones más a menos comunes.
 
+## Pulsar un botón siguiendo el ritmo
+Este es un método muy común y conocido de encontrar el BPM de una canción, eso sí, no siempre es preciso (dependiendo de tu sentido del ritmo, por supuesto).
 
-## Tapping along
-This is a really common and known method to find the BPM of a song, it's not always accurate, depending on your sense of rhythm of course.
-
-In Heaven Studio finding the "Tapping along" option isn't hard, on the top left corner find the mouse icon next to the Music Selection icon.
+En Heaven Studio encontrar la opción "Tapping along" (pulsar siguiendo el ritmo) no es difícil: en la esquina superior derecha, haz clic en el botón del *mouse*, al lado del icono de "Music Selection" (seleccionar música).
 
 ![tabtn](/img/docs-tips/music/bpm/tapalongbutton.png)
 
-A window will appear after you click the icon, you can click the icon in the window with the music to find the bpm.
+Una ventana aparecerá después de que clickees el icono, puedes hacer clic en el icono en la ventana con la música para encontrar el tempo.
 
 ![tashow](/img/docs-tips/music/bpm/tapalongshowcase.gif)
 
-This method isn't always recommended, because it depends on your sense of rhythm.
+Este método no siempre es recomendable, porque depende de tu sentido del ritmo.
 
-High chances, you'll get the BPM wrong, like this example here.
+Es muy probable que no aciertes con el BPM, como en este ejemplo de aquí.
 
-(Song is PinocchioP - Apple dot com)
+(Canción: PinocchioP - Apple dot com)
 
 <ReactPlayer controls url='/vid/bpm/tapalongwrong.mp4' />
 <br></br>
 
-After using one of the other methods, the correct BPM is`153BPM`
+Después de usar otro de los métodos, vemos que el BPM correcto es`153BPM`
 
 <ReactPlayer controls url='/vid/bpm/correctbpm.mp4' />
 
 
-## Just look it up online
-You can look up "`Song Name` BPM" on your favourite search engine, this may bring up either accurate results or far from accurate results.
+## Simplemente búscalo en Google
+Puedes buscar "`Nombre de la canción` BPM" en tu motor de búsqueda favorito. Esto puede traer resultados muy precisos, o resultados que dejen mucho que desear.
 
-Here are some websites that automatically check BPM of songs on Spotify:
+Aquí tienes algunos sitios web (en inglés) que buscan automáticamente el BPM de canciones en Spotify:
 
 - [Tunebat](https://tunebat.com)
 - [SONG⚡BPM](https://songbpm.com/)
 - [GetSongbpm](https://getsongbpm.com/)
 
-Only one of these websites (Tunebat) had the correct BPM of the song used as an example previously, but you should always try all BPMs you find if you will go with this method.
+Solo uno de estos sitios (Tunebat) tenía el tempo correcto de la canción del ejemplo anterior, pero siempre deberías probar todos los BPMs diferentes que encuentres si vas a seguir este método.
 
-## Using an online tool
-There are multiple tools online to automatically check the BPM of an audio file for you, this is probably the least accurate method you could use.
+## Usar una herramienta online
+Hay algunas herramientas online que automáticamente sacan el BPM de un archivo de audio. Este es probablemente el método menos eficaz que hay.use.
 
-One of the tools used for that is [GetSongbpm's tool](https://getsongbpm.com/tools/audio), keep in mind it only works with the `mp3` format.
+Una de las herramientas de este tipo es es [la herramienta de GetSongbpm](https://getsongbpm.com/tools/audio), aunque ten en mente que solo funciona con archivos `mp3`.
 
 
-## Using a DAW
-Most DAWs have a built-in tempo checker, they may be inaccurate sometimes, so a manual method will also be explained if needed, only Ableton and FL Studio will be covered here.
+## Usar un DAW [^1]
+La mayoría de DAWs tienen un ajuste de tempo incluido. A veces puede ser impreciso, así que también explicaremos un método manual por si es necesario. Sólo trataremos Ableton y FL Studio aquí.
+
+[^1]: Del inglés *Digital Audio Workstation* (estación de trabajo de audio digital); software para grabar, editar y producir música.
 
 ### FL Studio
-#### Automatically
+#### Automáticamente
 FL Studio comes with a somewhat good built-in automatic BPM checker, to access it click on the wave icon on the top left of the audio (next to the name of it) you have dragged to the timeline then click "Detect tempo".
 
 ![flmenu](/img/docs-tips/music/bpm/flmenu.png)
