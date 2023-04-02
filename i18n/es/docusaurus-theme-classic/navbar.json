@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "My Site Logo",
+    "message": "Logo de Heaven Studio",
     "description": "The alt text of navbar logo"
   },
   "item.label.Editor": {
@@ -12,11 +12,11 @@
     "description": "Navbar item with label Editor"
   },
   "item.label.Tips": {
-    "message": "Tips",
+    "message": "Consejos",
     "description": "Navbar item with label Tips"
   },
   "item.label.Contributing": {
-    "message": "Contributing",
+    "message": "Contribuir",
     "description": "Navbar item with label Contributing"
   }
 }

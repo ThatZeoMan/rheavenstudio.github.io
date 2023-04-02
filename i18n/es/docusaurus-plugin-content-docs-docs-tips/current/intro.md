@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introducción
 
-This area of the Heaven Studio docs consists of helpful tips to improve your remixes.
+Esta zona de la documentación de Heaven Studio está formada de consejos útiles para mejorar tus remixes.
 
-Following these tips is not required, but it can help with the remixing process.
+Seguir estos consejos no es obligatorio, pero puede ayudar al proceso de crear remixes.
