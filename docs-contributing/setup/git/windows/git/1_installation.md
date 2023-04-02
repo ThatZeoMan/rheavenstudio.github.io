@@ -19,3 +19,5 @@
 git clone THE_LINK_YOU_COPIED_HERE
 ```
 **Note: This will clone the repository into your user's folder**
+
+Now continue on to [Installing Unity](/docs-contributing/setup/unity/windows/installation).
