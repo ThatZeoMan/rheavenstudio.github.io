@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Controllers
 
-Under this category in settings, you can change controller settings.
+Under this tab in Settings, you can change the controller settings.
 
 ![ui](/img/docs/hsui/settings/controllers.png)
 
