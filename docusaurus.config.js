@@ -137,6 +137,10 @@ const config = {
             position: 'left',
             activeBaseRegex: `/docs-contributing/`,
           },
+          {
+          type: 'localeDropdown',
+          position: 'left',
+          },
         ],
       },
       footer: {
@@ -181,6 +185,27 @@ const config = {
         additionalLanguages: ['csharp'],
       },
     }),
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'ar'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      ar: {
+        label: 'العربية (مصر)',
+        direction: 'rtl',
+        htmlLang: 'ar-EG',
+        calendar: 'arabic',
+        path: 'ar',
+      },
+    },
+  },
 };
 
 module.exports = config;
