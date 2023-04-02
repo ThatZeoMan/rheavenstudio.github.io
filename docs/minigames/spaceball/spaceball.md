@@ -1,4 +1,7 @@
-# Spaceball
+---
+sidebar_position: 4
+---
+# 004 - Spaceball
 
 *Ignore the camera's wild zooms! Make the ball zoom wildly away! Don't blink! Wipe away your tears!* - Rhythm Heaven Megamix
 

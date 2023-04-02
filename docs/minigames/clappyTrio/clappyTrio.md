@@ -1,4 +1,7 @@
-# The Clappy Trio
+---
+sidebar_position: 5
+---
+# 005 - The Clappy Trio
 
 *Feel the flow of your clappy bretheren. Three claps right on the beat! Can you do it?* - Rhythm Heaven Megamix
 

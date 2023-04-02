@@ -1,4 +1,7 @@
-# Space Soccer
+---
+sidebar_position: 46
+---
+# 046 - Space Soccer
 
 *Don't drop the ball! It takes some crafty legwork to keep that thing in the air! Kick, kick, kick!* - Rhythm Heaven
 
