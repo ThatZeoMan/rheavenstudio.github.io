@@ -67,16 +67,5 @@ The Tengoku flow bar measures five points. The bar increases by one for every su
 #### Mania
 The Tengoku flow bar measures ten points. The bar increases by a number based on the total amount of inputs in the Karate Man segment; a more input-dense segment will grant less points per hit, while a less dense segment will grant more per hit. Inputting too early or too late, as well as hitting a hard object while at low flow, will drop the bar by a variable amount; completely missing will deplete the bar completely. Hitting hard objects requires seven points or higher.
 
-### Tips
-- The Tinted shadow option for `set background color` makes the shadow a bit redder, too.
-- `hit3` doesn't actually spawn the objects, so don't forget to do that!
-- A yellow `bulb` is commonly used to indicate kicks, and a blue one is used to indicate combos.
-- `hit3`'s HitThreeAlt is from Karate Man Kicks.
-- `prepare` is best used for sections where the `hit`s are offbeat, to add some tension.
-
-### Legality
-- No two `hit` or `bulb` cues should start at the same time.
-- `kick` or `combo` should not overlap with `hit`, `bulb`, or eachother while the combo/kick is in progress.
-
 ### Known Bugs and Issues
-- balls
+- None currently known.

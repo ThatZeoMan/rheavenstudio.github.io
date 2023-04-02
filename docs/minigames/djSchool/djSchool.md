@@ -33,14 +33,5 @@ DJ School is a **Cue-Based** game.
 |`DJ Yellow Banter`|Voice Lines|CheckItOut, LetsGo, OhYeah, OhYeahAlt, Yay|Plays the selected DJ Yellow voiceline.
 |`Scratchy Music`|Radio FX|Toggle|When checked, makes stopping the record apply a radio filter to the song. Stops when the record is released or spun.|0.5|
 
-### Tips
-- An `And Stop!` cue usually begins on the offbeat; this way, the input lands on the onbeat.
-- Try to populate your DJ School segments with `DJ Yellow Banter`! The game was designed to have a low amount of inputs, so filling up empty space with DJ Yellow's line is always appreciated.
-
-### Legality
-- As a rule of thumb, if DJ Yellow is speaking several voicelines (be it from `And Stop!`, `Break, C'mon!`, `Scratch-o`, or `DJ Yellow Banter`), the charting is likely illegal.
-	- If you'd like to have `Scratch-o` follow `And Stop!` or `Break, C'mon!` more quickly, try disabling the "ooh" sound effect on the latter two cues.
-- `Force Hold` should NOT be used unless transitioning from a game where the player was already holding down.
-
 ### Known Bugs and Issues
 - `Bop` can behave strangely at times; DJ Yellow's directional bops may repeat once or several times depending on how bop cues are used.
