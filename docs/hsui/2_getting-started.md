@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Quick overview of the UI
+# UI Overview
 
 Heaven Studio's UI is simple enough for anyone to use. Main editor elements are explained below.
 
