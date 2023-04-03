@@ -2,8 +2,6 @@
 sidebar_position: 1
 ---
 
-import {HeaderBadgesWidget} from '../../src/components/HeaderWidget.js';
-
 # Finding the song offset
 
 In most audio files, the song doesn't start immediately after the file begins. The song offset indicates the delay between the start of the audio stream and the start of the first beat. This section should help you figure out the offset.
@@ -42,5 +40,3 @@ This method is usually less accurate. This method only works if you have already
 Note: Beats are usually the longest parts of a waveform. Check the image below for reference
 
 ![waveform](/img/docs-tips/music/offset/waveform.png)
-
-<HeaderBadgesWidget commaDelimitedContributors="ThatZeoMan" lastDateString="2/13/23" />
