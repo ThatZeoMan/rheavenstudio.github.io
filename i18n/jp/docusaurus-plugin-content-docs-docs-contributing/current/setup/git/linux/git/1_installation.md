@@ -62,3 +62,5 @@ why are you even reading this.
 ```sh
 git clone THE_LINK_YOU_COPIED_HERE
 ```
+
+Now continue on to [Installing Unity](/docs-contributing/setup/unity/linux/installation).

@@ -2,9 +2,10 @@
 sidebar_position: 2
 ---
 
-# Setting up Heaven Studio
+# تجهيز Heaven Studio
 
-Heaven Studio is currently in a beta state, and we do not have any public releases as of right now. We currently have nightly builds that you can grab from our GitHub Actions, but support is not guaranteed. Please select your operating system accordingly:
+
+حالياً، Heaven Studio لسه في حالة البيتا، ومش بنوفر أي إصدارات عامة في الوقت الحالي، احنا عندنا إصدارات ليلية ينفع تحملها من الGitHub Actions، لكن الدعم مش مضمون. اختار نظام التشغيل بتاعك من تحت:
 
 - [Windows](https://nightly.link/RHeavenStudio/HeavenStudio/workflows/windows/master/StandaloneWindows64-build.zip)
 - [MacOS](https://nightly.link/RHeavenStudio/HeavenStudio/workflows/macos/master/StandaloneOSX-build.zip)

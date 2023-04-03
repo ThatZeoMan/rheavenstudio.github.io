@@ -13,6 +13,8 @@
 
 ![editor](../assets/secondstep.png)
 
-8. Select the latest 2020.3.xx LTS release.
+8. Select the 2021.3.21 LTS release.
 
 ![version](../assets/thirdstep.png)
+
+Now continue on to [Opening the project in Unity](/docs-contributing/setup/loading/project).
