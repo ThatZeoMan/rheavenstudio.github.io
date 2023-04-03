@@ -13,4 +13,4 @@ sidebar_position: 1
 
 <br></br>
 
-Rhythm Heaven is the intellectual property of Nintendo. This program is NOT endorsed nor sponsored in any way by Nintendo. All used properties of Nintendo (such as names, audio, graphics, etc.) in this software are not intended to maliciously infringe trademark rights. All other trademarks and assets are property of their respective owners. This is a community project and this is available for others to use according to the GPL-3.0 license, without charge.
+Rhythm Heaven هي ملكية فكرية لشركة Nintendo. لم يتم اعتماد هذا البرنامج أو رعايته بأي شكل من الأشكال بواسطة Nintendo. جميع الخصائص المستخدمة في Nintendo (مثل الأسماء والصوت والرسومات وما إلى ذلك) في هذا البرنامج ليس الغرض منها انتهاك حقوق العلامات التجارية بشكل ضار. جميع العلامات التجارية والأصول الأخرى مملوكة لأصحابها. هذا مشروع مجتمعي ومتاح للآخرين لاستخدامه وفقًا لترخيص GPL-3.0 ، بدون مقابل.
