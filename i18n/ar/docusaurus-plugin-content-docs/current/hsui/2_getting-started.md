@@ -2,17 +2,17 @@
 sidebar_position: 2
 ---
 
-# UI Overview
+# ملخص الواجهة
 
-Heaven Studio's UI is simple enough for anyone to use. Main editor elements are explained below.
+واجهة Heaevn Studio ساهلة أي حد يقدر يفهمها. العناصر الأساسية للبرنامج مشروحة تحت.
 
 ![ui](/img/docs/ui.png)
 
-**1. The game preview menu.** Here, you will see the preview of your remix being played.
+**1. شاشة المعاينة:** هنا هتشوف الريمكس بتاعك وهو بيتلعب.
 
-**2. File actions.** In order, these actions are: New Remix, Open Remix, Save Remix.
+**2. إجرائات الملفات:** بالترتيب هما: ريمكس جديد، فتح ريمكس، حفظ الريمكس.
 
-**3. Music related actions.** In order, these actions are: Tempo Finder, Music Select.
+**3. الإجرائات المتعلقة بالموسيقى:** بالترتيب هما: حاسب سرعة الإيقاع، اختيار الموسيقى.
 
 **4. Song offset.** Set how much time (in milliseconds) between the start of the audio file and the first beat.
 
@@ -20,7 +20,7 @@ Heaven Studio's UI is simple enough for anyone to use. Main editor elements are 
 
 **6. Special Entities info.** By default, this is set to BPM (changeable from n.11).
 
-**7. Minigames.** Click on a minigame to view it's events (n.11). Minigames are organized alphabetically.
+**7. Minigames.** Click on a minigame to view it's events (n.8). Minigames are organized alphabetically.
 
 **8. Event selection.** Scroll or use arrow keys to select an event, then drag it onto the Timeline (n.5) to place it.
 
