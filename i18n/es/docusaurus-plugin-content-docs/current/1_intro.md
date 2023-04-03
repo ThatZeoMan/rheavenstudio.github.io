@@ -2,15 +2,13 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introducción
 
-Welcome to Heaven Studio! A (WIP) Rhythm Heaven level editor made in Unity.
+¡Bienvenido a Heaven Studio! Un editor de niveles (en progreso) de Rhythm Heaven, hecho en Unity.
 
-This documentation will help you get started with Heaven Studio! Please start with downloading the game.
+¡Esta documentación te ayudará a comenzar a usar Heaven Studio! Comienza descargando el juego.
 
-(The minigames section of the documentation is outdated at the moment, it'll be updated soon.)
-
-
+(La sección de minijuegos de la documentación está algo desfasada, se actualizará pronto.)
 <br></br>
 
-Rhythm Heaven is the intellectual property of Nintendo. This program is NOT endorsed nor sponsored in any way by Nintendo. All used properties of Nintendo (such as names, audio, graphics, etc.) in this software are not intended to maliciously infringe trademark rights. All other trademarks and assets are property of their respective owners. This is a community project and this is available for others to use according to the GPL-3.0 license, without charge.
+Rhythm Heaven es la propiedad intelectual de Nintendo. Este programa NO está respaldado ni patrocinado de ninguna forma por Nintendo. Ninguna de las propiedades de Nintendo (nombres, audio, gráficos, etc.) en este software no están usadas con la intención de infringir maliciosamente en sus derechos como marcas registradas. El resto de recursos son propiedad de sus respectivos dueños. Este es un proyecto comunitario y está disponible para uso de cualquiera de acuerdo con la licencia GPL-3.0, sin coste alguno.
