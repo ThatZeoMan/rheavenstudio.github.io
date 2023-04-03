@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # المقدمة
 
-أهلاً بيك إلى هيڤن ستوديو! محرر ريزم هيڤن (لسه في العمل) معمول بيونيتي.
+أهلاً بيك إلى Heaven Studio! محرر Rhythm Heaven (لسه في العمل) معمول بإستخدام Unity.
 
-المانوال ده هيسعدك في إنك تبدأ في استعمال هيڤن ستوديو
+المانوال ده هيسعدك في إنك تبدأ في استعمال Heaven Studio.
 
-(The minigames section of the documentation is outdated at the moment, it'll be updated soon.)
+القسم بتاع الminigames في المانوال مش متحدث، هيتم تحديثه قريب
 
 
 <br></br>

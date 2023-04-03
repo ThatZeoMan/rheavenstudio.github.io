@@ -29,7 +29,7 @@ paru -S unityhub
 
 ![editor](../assets/secondstep.png)
 
-6. Select the latest 2020.3.xx LTS release.
+6. Select the 2021.3.21 LTS release.
 
 ![version](../assets/thirdstep.png)
 
@@ -39,3 +39,5 @@ I (the person writing this part of the document) have an issue where Unity can't
 ```sh
 DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1 unityhub
 ```
+
+Now continue on to [Opening the project in Unity](/docs-contributing/setup/loading/project).

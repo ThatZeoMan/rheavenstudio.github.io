@@ -10,5 +10,13 @@
   "sidebar.tutorialSidebar.category.Minigames": {
     "message": "Minigames",
     "description": "The label for category Minigames in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Exploring Heaven Studio": {
+    "message": "Exploring Heaven Studio",
+    "description": "The label for category Exploring Heaven Studio in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Settings": {
+    "message": "Settings",
+    "description": "The label for category Settings in sidebar tutorialSidebar"
   }
 }

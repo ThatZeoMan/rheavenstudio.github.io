@@ -10,3 +10,5 @@
 2. Clone it.
 3. Select "for myself".
 4. Click "Open in Finder" for future reference.
+
+Now continue on to [Installing Unity](/docs-contributing/setup/unity/mac/installation).
