@@ -40,21 +40,23 @@ import ReactPlayer from 'react-player'
 <ReactPlayer controls url='/vid/bpm/correctbpm.mp4' />
 
 
-## Just look it up online
-You can look up "`Song Name` BPM" on your favourite search engine, this may bring up either accurate results or far from accurate results.
+## دور على النت
 
-Here are some websites that automatically check BPM of songs on Spotify:
+ابحث "`اسم الأُغنية` BPM" على محرِك البحث المفضل ليك، ده احتمال يجيبلك سرعة الإيقاع الصحيحة أو الخاطئة.
+
+بعض المواقع إلى بتفحص سرعة الإيقاع للأغاني إلي على Spotify تلقائياً:
 
 - [Tunebat](https://tunebat.com)
 - [SONG⚡BPM](https://songbpm.com/)
 - [GetSongbpm](https://getsongbpm.com/)
 
-Only one of these websites (Tunebat) had the correct BPM of the song used as an example previously, but you should always try all BPMs you find if you will go with this method.
+مفيش غير موقع واحد من التلاتة (Tunebat) دول كان فيه سرعة الإيقاع الصح للأُغنية الي تم استعمالها كمثال فوق، بس انت لازم تجرب كل السرعات إلي تلاقيها باستخدام الطريقة دي.
 
-## Using an online tool
-There are multiple tools online to automatically check the BPM of an audio file for you, this is probably the least accurate method you could use.
+## إستعمال أداة على النت
 
-One of the tools used for that is [GetSongbpm's tool](https://getsongbpm.com/tools/audio), keep in mind it only works with the `mp3` format.
+فيه عدة أدوات على النت هتدورلك على سرعة الإيقاع لملف صوتي تلقائياً، الطريقة دي يمكن تكون اقل طريقة في الدقة.
+
+أحد الأدوات المستعملة في الطريقة دي هي [GetSongbpm's tool](https://getsongbpm.com/tools/audio)، خلي في دماغك إنها بتدعم ملفات ال`mp3` فقط.
 
 
 ## Using a DAW
