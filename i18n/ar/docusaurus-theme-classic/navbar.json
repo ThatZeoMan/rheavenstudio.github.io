@@ -8,15 +8,15 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Editor": {
-    "message": "Editor",
+    "message": "محرر",
     "description": "Navbar item with label Editor"
   },
   "item.label.Tips": {
-    "message": "Tips",
+    "message": "نصائح",
     "description": "Navbar item with label Tips"
   },
   "item.label.Contributing": {
-    "message": "Contributing",
+    "message": "مساهمة",
     "description": "Navbar item with label Contributing"
   }
 }

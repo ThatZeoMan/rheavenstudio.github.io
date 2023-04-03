@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# المقدمة
 
-This section will help you understand Heaven Studio, everything from the UI basics to the settings.
+القسم ده هيسعدك تفهم ازاي تستعمل Heaven Studio.
 
-Please get started here after downloading and launching the appropriately named "Heaven Studio" executable file.
+ابدا في القسم ده بعد ما تفتح Heaven Studio.

@@ -4,15 +4,15 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Exploring Heaven Studio": {
-    "message": "Exploring Heaven Studio",
+    "message": "استكشاف Heaven Studio",
     "description": "The label for category Exploring Heaven Studio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Settings": {
-    "message": "Settings",
+    "message": "الإعدادات",
     "description": "The label for category Settings in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Creating a Remix": {
-    "message": "Creating a Remix",
+    "message": "إنشاء ريمكس",
     "description": "The label for category Creating a Remix in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Minigames": {
