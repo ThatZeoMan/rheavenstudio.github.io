@@ -4,37 +4,38 @@ sidebar_position: 1
 
 import ReactPlayer from 'react-player'
 
-# Finding the BPM of a song
+# العثور على سرعة الإيقاع لأُغنية
 
-## Introduction
-BPM is the measurment of amount of beats per minute in a song. For example, `120BPM` is 120 beats per minute, which is 2 beats per second.
+## المقدمة
 
-Finding the BPM is really important to having a synced rhythm game chart in general. In a game like Rhythm Heaven, where audio cues ***have to fit the music exactly***, BPM is even more important than other rhythm games.
+سرعة الإيقاع (BPM) هي وحدة قياس سرعة الأغاني. مثال: `120BPM` يعبر عن 120 إيقاع في الدقيقة، أو إيقاعين في الثانية.
 
-There's multiple ways you can find the BPM of a song. We'll go from the most common to least common.
+العثور على سرعة الإيقاع، عامةً، مهم جداً علشان يبقى عندك chart متزامن. سرعة الإيقاع مهمة جداً في لعبة زي  Rhythm Heaven أكتر من أي لعبة تانية علشان التلميحات الصوتية ***لازم تناسب الموسيقى تماماً***.
 
+فيه عدة طرق تلاقي بيها سرعة الإيقاع لأُغنية، هنبدأ بالأكثر الأكثر شيوعية وهنروح تدريجياً لللأقل شيوعية.
 
-## Tapping along
-This is a really common and known method to find the BPM of a song, it's not always accurate, depending on your sense of rhythm of course.
+## الضغط مع الإيقاع
 
-In Heaven Studio finding the "Tapping along" option isn't hard, on the top left corner find the mouse icon next to the Music Selection icon.
+دي طريقة شائعة جداً للعثور على سرعة الإيقاع لأُغنية، بس الطريقة دي أقلهم دقة، علشان بتعتمد على حِسك الموسيقي.
+
+الواجهة إلي هتساعدك في العثور على سرعة الإيقاع في Heaven Studio سهلة إنك تلاقيها، فوق شمال في البرنامج فيه إيقونة ماوس جمب زرار اختيار الأُغنية
 
 ![tabtn](/img/docs-tips/music/bpm/tapalongbutton.png)
 
-A window will appear after you click the icon, you can click the icon in the window with the music to find the bpm.
+هتظهر واجهة بعد ما تضغط على الأيقونة، إضغط على الأيقونة في الواجهة دي وبكدا هتلاقي سرعة الإيقاع.
 
 ![tashow](/img/docs-tips/music/bpm/tapalongshowcase.gif)
 
-This method isn't always recommended, because it depends on your sense of rhythm.
+الطريقة دي مش موصى بيها علشان هي بتعتمد على حِسك الموسيقي
 
-High chances, you'll get the BPM wrong, like this example here.
+إحتمال كبير إنك هتجيب سرعة الإيقاع غلط، زي في المثال إلي تحت ده
 
-(Song is PinocchioP - Apple dot com)
+(الأُغنية هي PinocchioP - Apple dot com)
 
 <ReactPlayer controls url='/vid/bpm/tapalongwrong.mp4' />
 <br></br>
 
-After using one of the other methods, the correct BPM is`153BPM`
+بعد إستعمال أحد الطرق التانية، سرعة الإيقاع الصحيحة هي `153BPM`
 
 <ReactPlayer controls url='/vid/bpm/correctbpm.mp4' />
 
