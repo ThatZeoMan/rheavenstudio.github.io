@@ -187,7 +187,7 @@ const config = {
     }),
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ar', 'jp', 'es'],
+    locales: ['en', 'ar', 'jp', 'es', 'pt', 'fr', 'da'],
     path: 'i18n',
     localeConfigs: {
       en: {
@@ -206,6 +206,19 @@ const config = {
       es: {
         label: 'Español',
         path: 'es',
+      },
+      pt: {
+        label: 'Português (Brasil)',
+        htmlLang: 'pt-BR',
+        path: 'pt-BR',
+      },
+      fr: {
+        label: 'Français',
+        path: 'fr',
+      },
+      da: {
+        label: 'Dansk',
+        path: 'da',
       },
     },
   },
