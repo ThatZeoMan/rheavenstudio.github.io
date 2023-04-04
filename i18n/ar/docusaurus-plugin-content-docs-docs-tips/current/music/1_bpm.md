@@ -52,32 +52,34 @@ import ReactPlayer from 'react-player'
 
 مفيش غير موقع واحد من التلاتة (Tunebat) دول كان فيه سرعة الإيقاع الصح للأُغنية الي تم استعمالها كمثال فوق، بس انت لازم تجرب كل السرعات إلي تلاقيها باستخدام الطريقة دي.
 
-## إستعمال أداة على النت
+## استخدام أداة على النت
 
 فيه عدة أدوات على النت هتدورلك على سرعة الإيقاع لملف صوتي تلقائياً، الطريقة دي يمكن تكون اقل طريقة في الدقة.
 
 أحد الأدوات المستعملة في الطريقة دي هي [GetSongbpm's tool](https://getsongbpm.com/tools/audio)، خلي في دماغك إنها بتدعم ملفات ال`mp3` فقط.
 
 
-## Using a DAW
-Most DAWs have a built-in tempo checker, they may be inaccurate sometimes, so a manual method will also be explained if needed, only Ableton and FL Studio will be covered here.
+## استخدام برنامج بتاع عمل اغاني
+
+معظم برامج عمل الأغاني فيها أداة تدورلك على سرعة الإيقاع، الأدوات دي قد تكون غير دقيقة احياناً، فا هيبقى فيه طريقة يدوية هتتشرح في حالة إن الطريقة التلقائية منفعتش، مفيش غير Ableton و FL Studio هيتشرحوا هنا.
 
 ### FL Studio
-#### Automatically
-FL Studio comes with a somewhat good built-in automatic BPM checker, to access it click on the wave icon on the top left of the audio (next to the name of it) you have dragged to the timeline then click "Detect tempo".
+#### تلقائياً
+
+FL Studio بيجي مع أداة تلقائية غالباً كويسة تدورلك على سرعة الإيقاع لأُغنية، علشان تفتح الأداة دي إضغط على أيقونة الموجة الصوتية فوق شمال الصوت (جمب اسمه) إلي انت حطيته على الtimeline، بعدها إضغط على "Detect tempo".
 
 ![flmenu](/img/docs-tips/music/bpm/flmenu.png)
 
-A window will appear asking you to put in the BPM range of the audio file you are trying to detect BPM of, recommended ranges are `75BPM-150BPM` and `100BPM-200BPM`.
+هتظهرلك واجهة تسألك عن رينج لسرعة الإيقاع الي بتحاول تدور عليه، ينصح إنك تستعمل `75BPM-150BPM` أو `100BPM-200BPM`.
 
 ![fltempodetect](/img/docs-tips/music/bpm/fltempodetect.png)
 
-Using the song used above (PinocchioP - Apple dot com), FL Studio detected the tempo as `153.002BPM`, which is accurate, but we do not need the `.002BPM`.
-Results may vary depending on the song, specially if it has BPM changes.
+بعد استعمال الأُغنية إلي كنا استعملناها فوق (PinocchioP - Apple dot com)، FL Studio إكتشف إن سرعة الإيقاع هي `153.002BPM`، إلي هي دقيقة، بس إحنا مش محتاجين ال `.0002BPM`.
+النتيجة هتختلف على حسب الأُغنية، خاصةً لو فيها تغييرات في سرعة الإيقاع.
 
 ![fltempodetected](/img/docs-tips/music/bpm/fldetected.png)
 
-#### Manually
+#### يدوياً
 
 Adjusting the tempo manually starts pretty similarly to the automatic method. Just drag in an audio file.
 
@@ -104,23 +106,26 @@ Once each one of these sections is on the grid, you may need to adjust as you sc
 the song's tempo.
 
 ### Ableton
-#### Automatic
-In Ableton Live 11, Ableton automatically detect the tempo of an audio file once it's inserted in the timeline.
+#### تلقائياً
 
-To view the detected tempo click on the audio file after inserting it to the timeline.
+في Ableton Live 11، Ableton بيلاقي سرعة الإيقاع لملف صوتي تلقائياً بعد ما بيتحط في الtimeline.
+
+علشان تشوف سرعة الإيقاع الي تم العثور عليها، إضغط على الملف الصوتي إلي في الtimeline.
 
 ![ableton](/img/docs-tips/music/bpm/abletontempo.png)
 
-#### Manual
-Check the manual method in FL Studio right above, the method is similar.
+#### يدوياً
+
+شوف الطريقة بتاعت FL Studio، هي هي بالظبط.
 
 
-## Using ArrowVortex
-ArrowVortex is a somewhat known application in the rhythm game charting world, it has built-in automatic BPM and offset detection.
+## استخدام ArrowVortex
 
-To download ArrowVortex, please download it from this [webpage](https://arrowvortex.ddrnl.com/index.html).
+ArrowVortex برنامج معروف شويتين في مجتمع الrhythm game charting، البرنامج ده فيه أدوات تلاقي سرعة الإيقاع ووقت التأخير تلقائياً.
 
-After opening ArrowVortex, go to View on the top bar and make sure these are the enabled options:
+حمل ArrowVortex من الموقع [ده](https://arrowvortex.ddrnl.com/index.html).
+
+بعد ما تفتح ArrowVortex، روح لقايمة View من الشريط إلي فوق واتأكد إن الإختيارات دي متفعلة:
 
 - Show waveform
 - Show beat lines
@@ -131,32 +136,33 @@ After opening ArrowVortex, go to View on the top bar and make sure these are the
 
 Drag and drop your audio file into ArrowVortex, remember to press F4 to enable the metronome.
 
-This is how it should look like so far.
+ده لازم يبقى شكل الواجهة حالياً.
 
 ![arrowvortex](/img/docs-tips/music/bpm/arrowvortex.png)
 
-To bring up the automatic sync window, go to "Tempo" then click on "Adjust sync".
+علشان تفتح قايمة المزامنة، روح لقايمة "Tempo" وبعدها إضغط على "Adjust Sync".
 
 ![arrowvortextempo](/img/docs-tips/music/bpm/arrowvortextempo.png)
 
-Then press on "Find BPM".
+بعدها إضغط على "Find BPM".
 
 ![arrowvortexsync](/img/docs-tips/music/bpm/arrowvortexsync.png)
 
-This is how it should look like after ArrowVortex detects the BPM of the song.
+ده لازم يبقى شكل ArrowVortex بعد ما يلاقي سرعة الإيقاع للأُغنية
 
 ![arrowvortexsynced](/img/docs-tips/music/bpm/arrowvortexsynced.png)
 
-Now press Space on your keyboard to play the audio, if the metronome sounds off, go back to the "Adjust sync" window and press on the "0.5" button 1-2 times.
+دلوقتي إضغط مسافة على الكيبورد بتاعك، لو بندول الإيقاع مش مظبوط مع الأُغنية، إرجع لواجهة "Adjust Sync" وإضغط على زرار "0.5" مرة ولا مرتين.
+
+## شوف charts من rhythm games تانية
+
+فيه دايماً osu! chart للأُغنية إلي انت بتعملها ريمكس.
+
+معظم الrhythm games فيها سرعة الإيقاع سهل تجيبه من ملف الchart بتاعها، بعد الألعاب زي osu! بتستعمل الميلي ثانية بدلاً من الBPM في ملفاتها، في الحالة دي لازم تستعمل اللعبة نفسها علشان تشوف سرعة الإيقاع، دي قد تكون أفضل طريقة لغاية دلوقتي.
 
 
-## Checking charts from other rhythm games
-There's ALWAYS an osu! chart for the song you are remixing.
+## شوف fandom wikias
 
-Most rhythm games have the BPM accessible from the chart file they use, some games like osu! use milliseconds for beats instead of BPM, in which case you'd need to download the game and check in it's editor, this is probably the best method so far.
+الطريقة دي دايماً تنفع.
 
-
-## Checking a fandom wikia
-This works like a charm, a lot of times.
-
-A lot of fandom wikias contain the BPMs of popular songs from that fandom's media, this is your best option specially if you are going to remix a Vocaloid or a Touhou song.
+فيه fandom wikias كتير بتكتب سرعة الإيقاع للأغاني الي مشهورة من الfandom، ده ديماً ينفع لو انت بتعمل ريمكس لأغنية Vocaloid أو Touhou.
