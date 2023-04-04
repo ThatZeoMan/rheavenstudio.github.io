@@ -134,7 +134,7 @@ ArrowVortex برنامج معروف شويتين في مجتمع الrhythm game
 - Show notes
 - Time based (C-mod)
 
-Drag and drop your audio file into ArrowVortex, remember to press F4 to enable the metronome.
+حط الملف الصوتي في ArrowVortex، بعدها إضغط F4 على الكيبورد علشان تشغل البندول الإيقاعي.
 
 ده لازم يبقى شكل الواجهة حالياً.
 
