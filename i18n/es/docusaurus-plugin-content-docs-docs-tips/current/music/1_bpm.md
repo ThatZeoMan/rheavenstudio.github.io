@@ -62,63 +62,59 @@ La mayoría de DAWs tienen un ajuste de tempo incluido. A veces puede ser imprec
 
 ### FL Studio
 #### Automáticamente
-FL Studio comes with a somewhat good built-in automatic BPM checker, to access it click on the wave icon on the top left of the audio (next to the name of it) you have dragged to the timeline then click "Detect tempo".
+FL Studio tiene incluido una función de encontrar BPM decente. Para accederlo, haz clic en el botón de la ondo en la esquina superior derecha del audio en la *timeline* (al lado del nombre del audio), después haz clic en "Detect tempo"/"Detectar tempo".
 
 ![flmenu](/img/docs-tips/music/bpm/flmenu.png)
 
-A window will appear asking you to put in the BPM range of the audio file you are trying to detect BPM of, recommended ranges are `75BPM-150BPM` and `100BPM-200BPM`.
+Una ventana aparecerá pidiendo que introduzcas el rango de BPM del archivo de audio del cual estás intentando encontrar el BPM, rangos recomendados son `75-150BPM` y `100-200BPM`.
 
 ![fltempodetect](/img/docs-tips/music/bpm/fltempodetect.png)
 
-Using the song used above (PinocchioP - Apple dot com), FL Studio detected the tempo as `153.002BPM`, which is accurate, but we do not need the `.002BPM`.
-Results may vary depending on the song, specially if it has BPM changes.
+Utilizando la canción del ejemplo de arriba (PinnocioP - Apple dot com), FL Studio detectó el tempo como `153.002BPM`, lo cual es preciso, pero no necesitamos ese `0.002`.
+Los resultados pueden variar dependiendo de la canción, especialmente si el tempo no es constante.
 
 ![fltempodetected](/img/docs-tips/music/bpm/fldetected.png)
 
-#### Manually
+#### Manualmente
 
-Adjusting the tempo manually starts pretty similarly to the automatic method. Just drag in an audio file.
+Ajustar el tempo manualmente empieza de una forma bastante similar al método automático. Simplemente añade un archivo de audio.
 
 ![flmanualoffgrid](/img/docs-tips/music/bpm/flmanualoffgrid.png)
 
+¿Ves esos picos en la forma de onda? Eso es lo que usaremos para encontrar el tempo.
 
-Notice the peaks in the waveform? These are what we're going to use to find the tempo.
-
-Parts of the waveform with little start-up or "attack" tend to be more accurate with this method, which are highlighted in green. The section highlighted in red has a lot more attack, so it has some ambiguity on where it starts.
+Partes de la onda con poco tiempo de comienzo o "ataque" (en verde) suelen ser más precisas con este método. La sección en rojo tiene bastante más "ataque", así que hay más ambiguedad de cuando empieza.
 
 ![flmanualhighlight](/img/docs-tips/music/bpm/flmanualhighlight.png)
 
-
-The grid in most DAWs are divided up into beats. Once we align this audio file to that grid, it will be in tempo.
+La cuadrícula en la mayoría de DAWs está dividida en tiempos. Una vez alineamos el archivo de audio a la cuadrícula, el tempo será correcto.
 
 ![flemptygrid](/img/docs-tips/music/bpm/flemptygrid.png)
 
-In order to do that, adjust the project bpm, which is listed on the top of the screen, until these peaks are situated on the lines of the grid. You might need to zoom in a bit to make sure it's situated just right.
+Para hacer esto, ajustamos el tempo del proyecto (en la parte de arriba de la pantalla), hasta que los picos estén alineados con las líneas de la cuadrícula. Recomendamos que hagas algo de zoom para asegurarte de que todo está en su sitio.
 
 ![flmanualongrid](/img/docs-tips/music/bpm/flmanualongrid.png)
 
-This is why we wanted sections with little attack. The start of the section is more defined, making it easier to align.
-Once each one of these sections is on the grid, you may need to adjust as you scroll through your song, your project bpm should be
-the song's tempo.
+Por esto queríamos secciones con poco "ataque". El comienzo de la sección está más definido, por lo que es más fácil de alinear.
+Una vez cada una de estas secciones esté en la cuadrícula (quizás tengas que ir ajustando a lo largo de la canción), el BPM de tu proyecto debería ser el tempo de la canción.
 
 ### Ableton
-#### Automatic
-In Ableton Live 11, Ableton automatically detect the tempo of an audio file once it's inserted in the timeline.
+#### Automáticamente
+En Ableton Live 11, Ableton detecta automáticamente el tempo de un archivo de audio al añadirlo a la *timeline*.
 
-To view the detected tempo click on the audio file after inserting it to the timeline.
+Para ver el tempo detectado, haz clic en el archivo de audio después de insertarlo.
 
 ![ableton](/img/docs-tips/music/bpm/abletontempo.png)
 
-#### Manual
-Check the manual method in FL Studio right above, the method is similar.
+#### Manualmente
+Ver el método manual en FL Studio; el proceso es muy similar.
 
+## Usar ArrowVortex
+ArrowVortex es una aplicación relativamente conocida en el mundo de los charts de juegos de ritmo: tiene un detector de BPM y *offset* automático.
 
-## Using ArrowVortex
-ArrowVortex is a somewhat known application in the rhythm game charting world, it has built-in automatic BPM and offset detection.
+Para descargar ArrowVortex, descárgalo de esta [web](https://arrowvortex.ddrnl.com/index.html).
 
-To download ArrowVortex, please download it from this [webpage](https://arrowvortex.ddrnl.com/index.html).
-
-After opening ArrowVortex, go to View on the top bar and make sure these are the enabled options:
+Después de abrir ArrowVortex, ve a View (Ver) en la barra superior y asegúrate de que estas opciones sean las únicas encendidas:
 
 - Show waveform
 - Show beat lines
@@ -127,34 +123,33 @@ After opening ArrowVortex, go to View on the top bar and make sure these are the
 - Show notes
 - Time based (C-mod)
 
-Drag and drop your audio file into ArrowVortex, remember to press F4 to enable the metronome.
+Arrastra tu archivo a ArrowVortex. Recuerda que F4 activa el metrónomo.
 
-This is how it should look like so far.
+Este es el aspecto que debería de tener de momento.
 
 ![arrowvortex](/img/docs-tips/music/bpm/arrowvortex.png)
 
-To bring up the automatic sync window, go to "Tempo" then click on "Adjust sync".
+Para abrir la ventana de sincronización automática, ve a "Tempo" > "Adjust sync" (ajustar sincronización).
 
 ![arrowvortextempo](/img/docs-tips/music/bpm/arrowvortextempo.png)
 
-Then press on "Find BPM".
+Pulsa "Find BPM" (encuentra BPM).
 
 ![arrowvortexsync](/img/docs-tips/music/bpm/arrowvortexsync.png)
 
-This is how it should look like after ArrowVortex detects the BPM of the song.
+Así debería de ser después de que ArrowVortex encuentre tu BPM.
 
 ![arrowvortexsynced](/img/docs-tips/music/bpm/arrowvortexsynced.png)
 
+Ahora pulsa espacio en tu teclado para escuchar el audio. Si el metrónomo suena mal, vuelve a la ventana de "Adjust sync" y pulsa el botón "0.5" 1 o 2 veces.
 Now press Space on your keyboard to play the audio, if the metronome sounds off, go back to the "Adjust sync" window and press on the "0.5" button 1-2 times.
 
+## Buscar charts de otros juegos de ritmo
+SIEMPRE podrás encontrar un chart de osu! para cualquier canción que quieras remixear.
 
-## Checking charts from other rhythm games
-There's ALWAYS an osu! chart for the song you are remixing.
+La mayoría de juegos de ritmo tienen el BPM accesible desde el archivo que usan. Algunos juegos como osu! usan milisegundos por tiempo en vez de BPM, en cuyo caso necesitarías descargar el juego y comprobarlo en su editor.
 
-Most rhythm games have the BPM accessible from the chart file they use, some games like osu! use milliseconds for beats instead of BPM, in which case you'd need to download the game and check in it's editor, this is probably the best method so far.
+## Buscar en una wikia del fandom
+Esto puede ser muy útil en muchas ocasiones.
 
-
-## Checking a fandom wikia
-This works like a charm, a lot of times.
-
-A lot of fandom wikias contain the BPMs of popular songs from that fandom's media, this is your best option specially if you are going to remix a Vocaloid or a Touhou song.
+Un montón de wikias en un fandom contienen los tempos de canciones populares de ese fandom. Especialmente aplicable si quieres remixear algo de Touhou o Vocaloid.
