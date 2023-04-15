@@ -11,4 +11,6 @@ sidebar_position: 2
 - [MacOS](https://nightly.link/RHeavenStudio/HeavenStudio/workflows/macos/master/StandaloneOSX-build.zip)
 - [Linux](https://nightly.link/RHeavenStudio/HeavenStudio/workflows/linux/master/StandaloneLinux64-build.zip)
 
-**Non-Windows users please note that the nightly builds have an issue with rendering some minigames (such as Karate Man) on non-Windows operating systems, please build the level editor by yourself by following this guide right [here](../docs-contributing/setup/introduction).**
+
+**تحذير لمستخدمين MacOS وLinux: فيه بعض الminigames فيها مشاكل في عرضها في الإصدارات الليلية لMacOS وLinux، يرجى إنك تِبني المحرر بنفسك عن طريق التعليمات [دي](../docs-contributing/setup/introduction).**
+

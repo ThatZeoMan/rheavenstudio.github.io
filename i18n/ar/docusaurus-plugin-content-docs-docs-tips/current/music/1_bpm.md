@@ -4,77 +4,82 @@ sidebar_position: 1
 
 import ReactPlayer from 'react-player'
 
-# Finding the BPM of a song
+# العثور على سرعة الإيقاع لأُغنية
 
-## Introduction
-BPM is the measurment of amount of beats per minute in a song. For example, `120BPM` is 120 beats per minute, which is 2 beats per second.
+## المقدمة
 
-Finding the BPM is really important to having a synced rhythm game chart in general. In a game like Rhythm Heaven, where audio cues ***have to fit the music exactly***, BPM is even more important than other rhythm games.
+سرعة الإيقاع (BPM) هي وحدة قياس سرعة الأغاني. مثال: `120BPM` يعبر عن 120 إيقاع في الدقيقة، أو إيقاعين في الثانية.
 
-There's multiple ways you can find the BPM of a song. We'll go from the most common to least common.
+العثور على سرعة الإيقاع، عامةً، مهم جداً علشان يبقى عندك chart متزامن. سرعة الإيقاع مهمة جداً في لعبة زي  Rhythm Heaven أكتر من أي لعبة تانية علشان التلميحات الصوتية ***لازم تناسب الموسيقى تماماً***.
 
+فيه عدة طرق تلاقي بيها سرعة الإيقاع لأُغنية، هنبدأ بالأكثر الأكثر شيوعية وهنروح تدريجياً لللأقل شيوعية.
 
-## Tapping along
-This is a really common and known method to find the BPM of a song, it's not always accurate, depending on your sense of rhythm of course.
+## الضغط مع الإيقاع
 
-In Heaven Studio finding the "Tapping along" option isn't hard, on the top left corner find the mouse icon next to the Music Selection icon.
+دي طريقة شائعة جداً للعثور على سرعة الإيقاع لأُغنية، بس الطريقة دي أقلهم دقة، علشان بتعتمد على حِسك الموسيقي.
+
+الواجهة إلي هتساعدك في العثور على سرعة الإيقاع في Heaven Studio سهلة إنك تلاقيها، فوق شمال في البرنامج فيه إيقونة ماوس جمب زرار اختيار الأُغنية
 
 ![tabtn](/img/docs-tips/music/bpm/tapalongbutton.png)
 
-A window will appear after you click the icon, you can click the icon in the window with the music to find the bpm.
+هتظهر واجهة بعد ما تضغط على الأيقونة، إضغط على الأيقونة في الواجهة دي وبكدا هتلاقي سرعة الإيقاع.
 
 ![tashow](/img/docs-tips/music/bpm/tapalongshowcase.gif)
 
-This method isn't always recommended, because it depends on your sense of rhythm.
+الطريقة دي مش موصى بيها علشان هي بتعتمد على حِسك الموسيقي
 
-High chances, you'll get the BPM wrong, like this example here.
+إحتمال كبير إنك هتجيب سرعة الإيقاع غلط، زي في المثال إلي تحت ده
 
-(Song is PinocchioP - Apple dot com)
+(الأُغنية هي PinocchioP - Apple dot com)
 
 <ReactPlayer controls url='/vid/bpm/tapalongwrong.mp4' />
 <br></br>
 
-After using one of the other methods, the correct BPM is`153BPM`
+بعد إستعمال أحد الطرق التانية، سرعة الإيقاع الصحيحة هي `153BPM`
 
 <ReactPlayer controls url='/vid/bpm/correctbpm.mp4' />
 
 
-## Just look it up online
-You can look up "`Song Name` BPM" on your favourite search engine, this may bring up either accurate results or far from accurate results.
+## دور على النت
 
-Here are some websites that automatically check BPM of songs on Spotify:
+ابحث "`اسم الأُغنية` BPM" على محرِك البحث المفضل ليك، ده احتمال يجيبلك سرعة الإيقاع الصحيحة أو الخاطئة.
+
+بعض المواقع إلى بتفحص سرعة الإيقاع للأغاني إلي على Spotify تلقائياً:
 
 - [Tunebat](https://tunebat.com)
 - [SONG⚡BPM](https://songbpm.com/)
 - [GetSongbpm](https://getsongbpm.com/)
 
-Only one of these websites (Tunebat) had the correct BPM of the song used as an example previously, but you should always try all BPMs you find if you will go with this method.
+مفيش غير موقع واحد من التلاتة (Tunebat) دول كان فيه سرعة الإيقاع الصح للأُغنية الي تم استعمالها كمثال فوق، بس انت لازم تجرب كل السرعات إلي تلاقيها باستخدام الطريقة دي.
 
-## Using an online tool
-There are multiple tools online to automatically check the BPM of an audio file for you, this is probably the least accurate method you could use.
+## استخدام أداة على النت
 
-One of the tools used for that is [GetSongbpm's tool](https://getsongbpm.com/tools/audio), keep in mind it only works with the `mp3` format.
+فيه عدة أدوات على النت هتدورلك على سرعة الإيقاع لملف صوتي تلقائياً، الطريقة دي يمكن تكون اقل طريقة في الدقة.
+
+أحد الأدوات المستعملة في الطريقة دي هي [GetSongbpm's tool](https://getsongbpm.com/tools/audio)، خلي في دماغك إنها بتدعم ملفات ال`mp3` فقط.
 
 
-## Using a DAW
-Most DAWs have a built-in tempo checker, they may be inaccurate sometimes, so a manual method will also be explained if needed, only Ableton and FL Studio will be covered here.
+## استخدام برنامج بتاع عمل اغاني
+
+معظم برامج عمل الأغاني فيها أداة تدورلك على سرعة الإيقاع، الأدوات دي قد تكون غير دقيقة احياناً، فا هيبقى فيه طريقة يدوية هتتشرح في حالة إن الطريقة التلقائية منفعتش، مفيش غير Ableton و FL Studio هيتشرحوا هنا.
 
 ### FL Studio
-#### Automatically
-FL Studio comes with a somewhat good built-in automatic BPM checker, to access it click on the wave icon on the top left of the audio (next to the name of it) you have dragged to the timeline then click "Detect tempo".
+#### تلقائياً
+
+FL Studio بيجي مع أداة تلقائية غالباً كويسة تدورلك على سرعة الإيقاع لأُغنية، علشان تفتح الأداة دي إضغط على أيقونة الموجة الصوتية فوق شمال الصوت (جمب اسمه) إلي انت حطيته على الtimeline، بعدها إضغط على "Detect tempo".
 
 ![flmenu](/img/docs-tips/music/bpm/flmenu.png)
 
-A window will appear asking you to put in the BPM range of the audio file you are trying to detect BPM of, recommended ranges are `75BPM-150BPM` and `100BPM-200BPM`.
+هتظهرلك واجهة تسألك عن رينج لسرعة الإيقاع الي بتحاول تدور عليه، ينصح إنك تستعمل `75BPM-150BPM` أو `100BPM-200BPM`.
 
 ![fltempodetect](/img/docs-tips/music/bpm/fltempodetect.png)
 
-Using the song used above (PinocchioP - Apple dot com), FL Studio detected the tempo as `153.002BPM`, which is accurate, but we do not need the `.002BPM`.
-Results may vary depending on the song, specially if it has BPM changes.
+بعد استعمال الأُغنية إلي كنا استعملناها فوق (PinocchioP - Apple dot com)، FL Studio إكتشف إن سرعة الإيقاع هي `153.002BPM`، إلي هي دقيقة، بس إحنا مش محتاجين ال `.0002BPM`.
+النتيجة هتختلف على حسب الأُغنية، خاصةً لو فيها تغييرات في سرعة الإيقاع.
 
 ![fltempodetected](/img/docs-tips/music/bpm/fldetected.png)
 
-#### Manually
+#### يدوياً
 
 Adjusting the tempo manually starts pretty similarly to the automatic method. Just drag in an audio file.
 
@@ -101,23 +106,26 @@ Once each one of these sections is on the grid, you may need to adjust as you sc
 the song's tempo.
 
 ### Ableton
-#### Automatic
-In Ableton Live 11, Ableton automatically detect the tempo of an audio file once it's inserted in the timeline.
+#### تلقائياً
 
-To view the detected tempo click on the audio file after inserting it to the timeline.
+في Ableton Live 11، Ableton بيلاقي سرعة الإيقاع لملف صوتي تلقائياً بعد ما بيتحط في الtimeline.
+
+علشان تشوف سرعة الإيقاع الي تم العثور عليها، إضغط على الملف الصوتي إلي في الtimeline.
 
 ![ableton](/img/docs-tips/music/bpm/abletontempo.png)
 
-#### Manual
-Check the manual method in FL Studio right above, the method is similar.
+#### يدوياً
+
+شوف الطريقة بتاعت FL Studio، هي هي بالظبط.
 
 
-## Using ArrowVortex
-ArrowVortex is a somewhat known application in the rhythm game charting world, it has built-in automatic BPM and offset detection.
+## استخدام ArrowVortex
 
-To download ArrowVortex, please download it from this [webpage](https://arrowvortex.ddrnl.com/index.html).
+ArrowVortex برنامج معروف شويتين في مجتمع الrhythm game charting، البرنامج ده فيه أدوات تلاقي سرعة الإيقاع ووقت التأخير تلقائياً.
 
-After opening ArrowVortex, go to View on the top bar and make sure these are the enabled options:
+حمل ArrowVortex من الموقع [ده](https://arrowvortex.ddrnl.com/index.html).
+
+بعد ما تفتح ArrowVortex، روح لقايمة View من الشريط إلي فوق واتأكد إن الإختيارات دي متفعلة:
 
 - Show waveform
 - Show beat lines
@@ -126,34 +134,35 @@ After opening ArrowVortex, go to View on the top bar and make sure these are the
 - Show notes
 - Time based (C-mod)
 
-Drag and drop your audio file into ArrowVortex, remember to press F4 to enable the metronome.
+حط الملف الصوتي في ArrowVortex، بعدها إضغط F4 على الكيبورد علشان تشغل البندول الإيقاعي.
 
-This is how it should look like so far.
+ده لازم يبقى شكل الواجهة حالياً.
 
 ![arrowvortex](/img/docs-tips/music/bpm/arrowvortex.png)
 
-To bring up the automatic sync window, go to "Tempo" then click on "Adjust sync".
+علشان تفتح قايمة المزامنة، روح لقايمة "Tempo" وبعدها إضغط على "Adjust Sync".
 
 ![arrowvortextempo](/img/docs-tips/music/bpm/arrowvortextempo.png)
 
-Then press on "Find BPM".
+بعدها إضغط على "Find BPM".
 
 ![arrowvortexsync](/img/docs-tips/music/bpm/arrowvortexsync.png)
 
-This is how it should look like after ArrowVortex detects the BPM of the song.
+ده لازم يبقى شكل ArrowVortex بعد ما يلاقي سرعة الإيقاع للأُغنية
 
 ![arrowvortexsynced](/img/docs-tips/music/bpm/arrowvortexsynced.png)
 
-Now press Space on your keyboard to play the audio, if the metronome sounds off, go back to the "Adjust sync" window and press on the "0.5" button 1-2 times.
+دلوقتي إضغط مسافة على الكيبورد بتاعك، لو بندول الإيقاع مش مظبوط مع الأُغنية، إرجع لواجهة "Adjust Sync" وإضغط على زرار "0.5" مرة ولا مرتين.
+
+## شوف charts من rhythm games تانية
+
+فيه دايماً osu! chart للأُغنية إلي انت بتعملها ريمكس.
+
+معظم الrhythm games فيها سرعة الإيقاع سهل تجيبه من ملف الchart بتاعها، بعد الألعاب زي osu! بتستعمل الميلي ثانية بدلاً من الBPM في ملفاتها، في الحالة دي لازم تستعمل اللعبة نفسها علشان تشوف سرعة الإيقاع، دي قد تكون أفضل طريقة لغاية دلوقتي.
 
 
-## Checking charts from other rhythm games
-There's ALWAYS an osu! chart for the song you are remixing.
+## شوف fandom wikias
 
-Most rhythm games have the BPM accessible from the chart file they use, some games like osu! use milliseconds for beats instead of BPM, in which case you'd need to download the game and check in it's editor, this is probably the best method so far.
+الطريقة دي دايماً تنفع.
 
-
-## Checking a fandom wikia
-This works like a charm, a lot of times.
-
-A lot of fandom wikias contain the BPMs of popular songs from that fandom's media, this is your best option specially if you are going to remix a Vocaloid or a Touhou song.
+فيه fandom wikias كتير بتكتب سرعة الإيقاع للأغاني الي مشهورة من الfandom، ده ديماً ينفع لو انت بتعمل ريمكس لأغنية Vocaloid أو Touhou.
