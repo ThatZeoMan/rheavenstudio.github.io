@@ -12,7 +12,7 @@ En la mayoría de archivos de audio, la canción no empieza inmediatamente tras 
 En esta guía usaremos Audacity.
 
 1. Descarga Audacity
-(usuarios de Windows/macOS, obtenedlo del [sitio web de Audacity](https://www.audacityteam.org/download/), usuarios de Linux buscad instrucciones para vuestra distro online)
+(usuarios de Windows/macOS, obténganlo del [sitio web de Audacity](https://www.audacityteam.org/download/), usuarios de Linux busquen instrucciones para su distro online)
 2. Abre tu archivo de audio en Audacity
 3. Haz zoom en el principio del audio
 4. Sitúa el cursor justo al comienzo del primer tiempo (normalmente justo después del silencio al principio, a veces un poco después como en Karate Killo (GBA))
