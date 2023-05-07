@@ -15,7 +15,7 @@ En esta guía usaremos Audacity.
 (usuarios de Windows/macOS, obténganlo del [sitio web de Audacity](https://www.audacityteam.org/download/), usuarios de Linux busquen instrucciones para su distro online)
 2. Abre tu archivo de audio en Audacity
 3. Haz zoom en el principio del audio
-4. Sitúa el cursor justo al comienzo del primer tiempo (normalmente justo después del silencio al principio, a veces un poco después como en Karate Killo (GBA))
+4. Sitúa el cursor justo al comienzo del primer tiempo (normalmente justo después del silencio al principio, a veces un poco después como en Kárate Killo (GBA))
 5. Comprueba el tiempo abajo del todo. Los últimos tres números son tu offset en milisegundos
 
 ![audacity](/img/docs-tips/music/offset/audacity.png)
@@ -25,18 +25,18 @@ En esta guía usaremos Audacity.
 
 ## Método 2: Comprobando a mano
 Este método suele ser menos preciso, y solo funciona si ya tienes el BPM ajustado.
-(Si en algún momento durante el proceso la canción tiene el ritmo correctamente ajustado, puedes saltarte el resto de los pasos.)
+(Si en algún momento durante el proceso, la canción tiene el ritmo correctamente ajustado, puedes saltarte el resto de los pasos.)
 
 1. Enciende el metrónomo en Heaven Studio haciendo click en el icono del metrónomo. Pulsa `Espacio` para reproducir el remix y asegurarte de que está encendido. (Si es difícil oír el metrónomo, ajusta el volumen de la canción a 50% pulsando `2` en tu teclado y haciendo click en el botón "Song Volume" (volumen de la canción) a la izquierda. Puedes deshacer este cambio después.)
-2. Play your remix. If the metronome is early, increase the Song Offset by 100.
-3. Repeat step 2 until the metronome is slightly late. Decrease the Song Offset by 100.
-4. Play your remix. If the metronome is early, increase the Song Offset by 25.
-5. Repeat step 4 until the metronome is slightly late. Decrease the Song Offset by 25.
-6. Play your remix. If the metronome is early, increase the Song Offset by 5.
-7. Repeat step 6 until the metronome is slightly late. Decrease the Song Offset by 5.
-8. Play your remix. If the metronome is early, increase the Song Offset by 1.
-9. Repeat step 8 until the metronome is on-beat.
+2. Reproduce tu remix. si el metrónomo suena un poco antes, incrementa el offset de la canción en 100.
+3. Repite el paso 2 hasta que el metrónomo suene un poco después. Disminuye el offset de la canción en 100.
+4. Reproduce tu remix. si el metrónomo suena un poco antes, incrementa el offset de la canción en 25.
+5. Repite el paso 4 hasta que el metrónomo suene un poco después. Disminuye el offset de la canción en 25.
+6. Reproduce tu remix. si el metrónomo suena un poco antes, incrementa el offset de la canción en 5.
+7. Repite el paso 6 hasta que el metrónomo suene un poco después. Disminuye el offset de la canción en 5.
+8. Reproduce tu remix. si el metrónomo suena un poco antes, incrementa el offset de la canción en 1.
+9. Repite el paso 8 hasta que el metrónomo esté acompasado.
 
-Note: Beats are usually the longest parts of a waveform. Check the image below for reference
+Nota: Los pulsos (beats) son usualmente la parte más larga del espectro de sonido (waveform). Observa la imagen abajo para mayor referencia.
 
 ![waveform](/img/docs-tips/music/offset/waveform.png)

@@ -4,40 +4,40 @@ sidebar_position: 3
 
 import ReactPlayer from 'react-player'
 
-# Charting the remix
-Let's start charting the remix.
+# Elaborando el remix.
+Comencemos a elaborar el remix.
 
-1. Select a minigame by clicking on an icon in the minigame selection menu.
+1. Selecciona un minijuego haciendo click en un ícono en el menú de selección de minijuegos.
 
 ![minigame](/img/docs/firstremix/minigameselection.png)
 
-2. From the events window right next to it, drag and drop the "Switch Game" event to the timeline.
-Note: Make sure you are on the Selection tool, otherwise drag-and-drop will be disabled. Enable it by pressing `1` on your keyboard, or by clicking the mouse icon underneath the game selection.
+2. Desde la ventana de eventos justo a la derecha de los íconos, arrastra y suelta el evento "Switch Game" (Cambiar juego) a la línea de tiempo.
+Nota: Asegúrate de tener la herramienta de Selección activada (Tool Selection), de otra forma no podrás arrastrar y soltar eventos en la línea de tiempo. Actívala presionando el número `1` en tu teclado, o haciendo click al ícono del mouse debajo de la selección de minijuegos.
 
 ![draggingevent](/img/docs/firstremix/draggingevent.gif)
 
-3. Next, press the up/down arrow keys on your keyboard to select other events. You can also use your scroll wheel while hovering over the cue selection window. Since we're using Coin Toss for now, we'll go with "Toss Coin".
+3. Ahora, presiona las flechas de dirección arriba/abajo en tu teclado para seleccionar otros eventos. Puedes usar también la rueda del ratón mientras te mantengas en la ventana de selección de eventos. Como estamos ocupando Lanza la moneda (Coin Toss) por ahora, usaremos el evento "Toss Coin" (Lanzar moneda).
 
 ![cointoss](/img/docs/firstremix/cointoss.gif)
 
-4. We'll now switch to another minigame. Click a minigame's icon, then drag and drop the "Switch Game" event to the timeline.
-Note: You can right click at the beats bar to select when to start playback.
+4. Ahora cambiaremos a otro minijuego. Haz click en alguno de los íconos de minijuego, luego arrastra y suelta el evento "Switch Game" (Cambiar juego) a la línea de tiempo.
+Nota: Puedes hacer click derecho en la barra de compases para seleccionar el momento en que empiece la reproducción del remix.
 
 ![switchgame](/img/docs/firstremix/switchgame.gif)
 
-5. Put the event you want to use in the minigame you just switched to, since we're using Karate Man, we'll go with "Toss Object".
+5. Coloca el evento que quieras usar del minijuego al que acabas de cambiar, como estamos ocupando Kárate Killo (Karate Man), usaremos el evento "Toss Object" (Lanzar objeto).
 
 ![kmancue](/img/docs/firstremix/kmancue.gif)
 
 
-This is how it looks and sounds now.
+Así es como luce y suena ahora.
 
 <ReactPlayer controls url='/vid/firstchart/progress.mp4' />
 <br></br>
 
-Continue charting your remix as you wish by dragging in events.
+Continúa elaborando tu remix como desees arrastrando más eventos.
 
 <ReactPlayer controls url='/vid/firstchart/kmangba.mp4' />
 <br></br>
 
-Here's the [download of the example remix used in this guide](/examples/kmangba.riq) if you would like to take a look.
+Aquí tienes el [ejemplo usado en esta guía para descargar](/examples/kmangba.riq) si quieres echarle un vistazo.
