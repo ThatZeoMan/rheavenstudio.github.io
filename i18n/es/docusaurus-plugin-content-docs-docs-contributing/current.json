@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Setting up the project": {
-    "message": "Setting up the project",
+    "message": "Poniendo en marcha el proyecto",
     "description": "The label for category Setting up the project in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installing Git": {
-    "message": "Installing Git",
+    "message": "Instalando Git",
     "description": "The label for category Installing Git in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Windows": {
@@ -32,19 +32,19 @@
     "description": "The label for category Linux in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installing Unity": {
-    "message": "Installing Unity",
+    "message": "Instalando Unity",
     "description": "The label for category Installing Unity in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Opening the project in Unity": {
-    "message": "Opening the project in Unity",
+    "message": "Abriendo el proyecto en Unity",
     "description": "The label for category Opening the project in Unity in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Guidelines": {
-    "message": "Guidelines",
+    "message": "Pautas",
     "description": "The label for category Guidelines in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.API": {
-    "message": "API",
+    "message": "IPA",
     "description": "The label for category API in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Core": {

@@ -1,23 +1,23 @@
-# Installation
+# Instalación
 
-1. Grab the installer from [this webpage](https://git-scm.com/download/win).
-2. Follow the usual installation process.
-3. When you reach the "Adjusting your PATH enviornment" step in the installer, please select "Run Git from the Windows Command Prompt". (as seen in the picture below)
+1. Obtén el instalador desde [este sitio](https://git-scm.com/download/win).
+2. Sigue el proceso usual de instalación.
+3. Cuando llegues al paso de "Adjusting your PATH enviornment" en el instalador, por favor selecciona "Run Git from the Windows Command Prompt". (tal como se muestra en la imagen abajo)
 
 ![Setup image](./assets/setup.png)
 
-4. You're ready to go! Open your Windows Terminal now to use git
+4. ¡Estás listo para empezar! Abre tu terminal de Windows para usar Git
 
-## Cloning the repository
-1. Open your fork on GitHub.
-2. Follow the image below to copy the link of your fork.
+## Clonando el repositorio
+1. Abre tu fork en GitHub.
+2. Sigue la imagen abajo para copiar el link a tu fork.
 
 ![copy](../../assets/cloning.png)
 
-3. After copying, run the command below in Windows Terminal.
+3. Después de copiar, ejecuta el siguiente comando en la terminal de Windows.
 ```sh
-git clone THE_LINK_YOU_COPIED_HERE
+git clone EL_LINK_QUE_COPIASTE_VA_AQUÍ
 ```
-**Note: This will clone the repository into your user's folder**
+**Nota: Esto clonará el repositorio en tu carpeta de usuario**
 
-Now continue on to [Installing Unity](/docs-contributing/setup/unity/windows/installation).
+Ahora continúa en [Instalando Unity](/docs-contributing/setup/unity/windows/installation).

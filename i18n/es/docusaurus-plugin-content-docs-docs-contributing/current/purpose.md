@@ -2,10 +2,10 @@
 sidebar_position: 2
 ---
 
-# Purpose of these Docs
+# Propósitos de estos documentos
 
-* Consistency and clarity: Coding guidelines ensure that everyone in the community is using a consistent style and structure for writing code. This makes it easier for everyone to understand each other's code, leading to increased collaboration and reduced confusion.
+* Consistencia y claridad: Las pautas de programación aseguran que todos en la comunidad estén usando estilos y estructuras consistentes a la hora de programar. Esto hace más fácil para todos entender lo que otros han programado, ampliando la colaboración y reduciendo la confusión.
 
-* Improved code quality: By establishing a clear set of standards for how code should be written, coding guidelines can help ensure that the code in the project is of high quality, reducing the likelihood of bugs and making it easier to maintain.
+*  Calidad de programación mejorada: Al establecer un conjunto de estándares a seguir sobre cómo escribir el código, las pautas de programación pueden asegurar que el código en este proyecto sea de alta calidad, reduciendo la probabilidad de fallos y facilitando su mantenimiento.
 
-* Increased collaboration and participation: When everyone in a community follows the same coding guidelines, it becomes easier for new contributors to get involved and start contributing to the project. This can increase the number of contributors and the overall size of the community, leading to a more vibrant and active open-source project. Additionally, clear guidelines can help to reduce conflicts and disagreements within the community, improving collaboration and the overall health of the project.
+* Amplia colaboración y participación: Cuando todos en una comunidad siguen las mismas pautas de programación, se vuelve más sencillo para los nuevos contribuidores empezar a participar en el proyecto. Esto puede aumentar el número de contribuidores y el tamaño de la comunidad en general, conduciendo a un proyecto de código abierto más vivo y activo. Adicionalmente, pautas más claras pueden ayudar a reducir conflictos y desacuerdos entre la comunidad, mejorando la colaboración y la salud del proyecto.

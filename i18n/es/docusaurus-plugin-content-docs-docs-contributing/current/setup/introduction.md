@@ -1,10 +1,10 @@
-# Introduction
+# Introducción
 
-You'll need to go through some steps to setup the Heaven Studio project on your computer.
+Deberás realizar algunos pasos antes de poner en marcha el proyecto de Heaven Studio en tu computadora.
 
-Before proceeding, please fork the [repository](https://github.com/megaminerjenny/HeavenStudio) on GitHub.
+Antes de seguir, por favor realiza un fork del [repositorio](https://github.com/megaminerjenny/HeavenStudio) en GitHub.
 
-Then start with installing Git or GitHub Desktop on your machine, select your operating system:
+Después comienza a instalar Git o GitHub Desktop en tu sistema, selecciona tu sistema operativo:
 
 - [Windows](/docs-contributing/setup/git/windows/introduction)
 - [MacOS](/docs-contributing/setup/git/mac/introduction)
