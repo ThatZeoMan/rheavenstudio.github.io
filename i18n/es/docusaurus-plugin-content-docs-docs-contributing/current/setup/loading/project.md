@@ -1,21 +1,21 @@
-# Loading the project
+# Cargando el proyecto
 
-After finally cloning the repository, you can now open it in Unity.
+Después de finalizar la clonación del repositorio, ahora puedes abrirlo en Unity.
 
-1. Open UnityHub
-2. Click "Open"
+1. Abre Unity Hub
+2. Haz click en "Open"
 
 ![open](./assets/firststep.png)
 
-3. Browse to your repository and load it
-4. Click the project in UnityHub
+3. Navega hasta tu repositorio y cárgalo
+4. Haz click al proyecto en Unity Hub
 
 ![launch](./assets/secondstep.png)
 
-5. If you see any warning about a wrong unity version, select your current one or just ignore the warning.
+5. Si aparece algún mensaje sobre una versión incorrecta de Unity, simplemente selecciona la versión que tengas o ignora el mensaje.
 
-And now after loading the project in Unity, build AssetBundles by doing the following:
-1. Go to Assets
-2. Click "Build AssetBundles"
+Y después de cargar el proyecto en Unity, compila el AssetBundles haciendo lo siguiente:
+1. Ve a "Assets"
+2. Haz click en "Build AssetBundles"
 
 ![assbuns](./assets/assetbundles.png)

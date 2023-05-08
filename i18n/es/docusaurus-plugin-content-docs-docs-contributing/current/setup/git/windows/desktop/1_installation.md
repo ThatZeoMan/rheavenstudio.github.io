@@ -1,14 +1,14 @@
-# Installation
+# Instalación
 
-1. Grab the installer from [this webpage](https://desktop.github.com/).
-2. Follow the usual installation process.
-3. Launch GitHub Desktop from the start menu.
-4. Login with your GitHub account.
+1. Obtén el instalador desde [este sitio](https://desktop.github.com/).
+2. Sigue el proceso usual de instalación.
+3. Ejecuta GitHub Desktop desde el menú de inicio.
+4. Inicia sesión con tu cuenta de GitHub.
 
-## Cloning the repository
-1. Open your fork in GitHub Desktop.
-2. Clone it.
-3. Select "for myself".
-4. Click "Open in Explorer" for future reference.
+## Clonando el repositorio
+1. Abre tu fork en GitHub Desktop.
+2. Clónalo.
+3. Selecciona "for myself".
+4. Haz click en "Open in Explorer" para futuras referencias.
 
-Now continue on to [Installing Unity](/docs-contributing/setup/unity/windows/installation).
+Ahora continúa en [Instalando Unity](/docs-contributing/setup/unity/windows/installation).

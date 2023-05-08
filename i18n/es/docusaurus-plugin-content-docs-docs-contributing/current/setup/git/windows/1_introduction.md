@@ -1,6 +1,6 @@
-# Introduction
+# Introducción
 
-Please choose your preferred way to use git.
+Por favor selecciona tu forma preferida de usar Git.
 
 - [GitHub Desktop (GUI)](./desktop/installation)
 - [Git (CLI)](./git/installation)
