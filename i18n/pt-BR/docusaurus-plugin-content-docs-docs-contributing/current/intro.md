@@ -2,10 +2,10 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introdução
 
-Heaven Studio is written in the C# programming language using the Unity game engine.
+Heaven Studio é escrito na linguagem de programação C# usando o motor gráfico Unity.
 
-If you are unfamiliar with C# or Unity, it is recommended that you take the time to create a small game using these first. That will provide you with more knowledge and understanding than any written explanation could.
+Se você não é familiarizado com C# ou Unity, é recomendado que você crie um pequeno jogo usando-os primeiro. Isso te providenciará mais conhecimento e entendimento do que qualquer explicação por extenso poderá lhe dar.
 
-If you understand the basics of both, let’s get started.
+Se você entende o básico dos dois, vamos começar.
