@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# Editor Settings
+# Opciones del editor
 
-Under this tab in Settings, you can change the editor's settings.
+En esta pestaña de las opciones, puedes cambiar las opciones del editor.
 
 ![ui](/img/docs/hsui/settings/editor.png)
 
-|Setting|Description|Value|
+|Opción|Descripción|Valor|
 |---|---|---|
-|`Toggle Preview Cursor`|Toggle the Rhythm Heaven DS-inspired cursor shown in the preview window|Toggle|
-|`Discord Rich Presence`|Toggle the Discord rich prescence (play status)<br></br><i>MacOS users: keep this setting disabled, as HS crashes when Discord is not open with this setting on.</i>|Toggle|
+|`Toggle Preview Cursor`|Activa en la ventana de la vista previa el cursor inspirado en Rhythm Heaven DS|Toggle|
+|`Discord Rich Presence`|Activa la presencia en Discord (Estado de Juego)<br></br><i>Usuarios de MacOS: Mantengan esta opción desactivada, puesto que HS crashea cuando Discord no está abierto con esta opción activada.</i>|Toggle|

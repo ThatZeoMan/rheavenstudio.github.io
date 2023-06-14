@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Introducción
 
-This section will help you understand Heaven Studio, everything from the UI basics to the settings.
+Esta sección te ayudará a entender Heaven Studio, desde lo básico de la IU hasta los ajustes del programa.
 
-Please get started here after downloading and launching the appropriately named "Heaven Studio" executable file.
+Por favor comienza a leer esta parte después de haber descargado y ejecutado el ejecutable propiamente llamado "Heaven Studio".

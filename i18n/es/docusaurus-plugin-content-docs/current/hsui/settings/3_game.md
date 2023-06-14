@@ -2,47 +2,47 @@
 sidebar_position: 3
 ---
 
-# Gameplay Settings
+# Opciones del juego
 
-Under this tab in Settings, you can change the gameplay settings.
+En esta pestaña de las opciones, puedes cambiar las opciones del juego.
 
 ![ui](/img/docs/hsui/settings/game.png)
 
-|Setting|Description|Value|
+|Opción|Descripción|Valor|
 |---|---|---|
-|`Show Overlays in Editor`|Toggle the gameplay overlays in the preview window|Toggle|
-|`Simple Timing Displays`|Toggle a timing display with lower effects|Toggle|
-|`Enable Perfect Challenge`|Toggle the perfect challenge UI|Toggle|
-|`Enable Section Medals`|Toggle section medals|Toggle|
+|`Show Overlays in Editor`|Activar la superposición de juego en la vista previa|Toggle|
+|`Simple Timing Displays`|Activa una "barra de ritmo" con pocos efectos|Toggle|
+|`Enable Perfect Challenge`|Activa la Interfaz del modo pérfecto|Toggle|
+|`Enable Section Medals`|Activa las medallas de secciones|Toggle|
 
-#### Letterbox Background
-|Setting|Description|Value|
+#### Fondo de Letterbox
+|Opción|Descripción|Valor|
 |---|---|---|
-|`Letterbox Background`|Toggle the letterbox background in non-16:9 resolutions|Toggle|
-|`Ambient Glow`|Toggle the ambient glow|Toggle|
+|`Letterbox Background`|Activa el fondo de letterbox en resoluciones distintas a 16:9|Toggle|
+|`Ambient Glow`|Activa el ambiente luminoso|Toggle|
 
-## Game UI Layout
-### Timing Display
-|Setting|Description|Value|
+## Arreglo de la Interfaz del juego
+### Barra de ritmo
+|Opción|Descripción|Valor|
 |---|---|---|
-|`Timing Display Type`|Choose how many timing displays are visible|`Dual` or `Single`|
-|`Enable`|Toggle the timing display|Toggle|
-|`Position`|Set the position of the timing display|Vector2|
-|`Rotation`|Set the rotation of the timing display|Float|
-|`Scale`|Set the scale of the timing display|Float|
+|`Timing Display Type`|Escoge el número de barras visibles en juego|`Dual` or `Single`|
+|`Enable`|Activa la barra de ritmo|Toggle|
+|`Position`|Establece la posición de la barra de ritmo|Vector2|
+|`Rotation`|Establece la rotación de la barra de ritmo|Float|
+|`Scale`|Establece el tamaño de la barra de ritmo|Float|
 
-### Skill Star
-|Setting|Description|Value|
+### Estrella
+|Opción|Descripción|Valor|
 |---|---|---|
-|`Enable`|Toggle the skill star (this will also toggle the sound)|Toggle|
-|`Position`|Set the position of the skill star|Vector2|
-|`Rotation`|Set the rotation of the skill star|Float|
-|`Scale`|Set the scale of the skill star|Float|
+|`Enable`|Activa la estrella (Esta opción también activa el sonido)|Toggle|
+|`Position`|Establece la posición de la estrella|Vector2|
+|`Rotation`|Establece la rotación de la estrella|Float|
+|`Scale`|Establece el tamaño de la estrella|Float|
 
-### Section Progress
-|Setting|Description|Value|
+### Barra de progreso
+|Opción|Descripción|Valor|
 |---|---|---|
-|`Enable`|Toggle the section progress|Toggle|
-|`Position`|Set the position of the section progress|Vector2|
-|`Rotation`|Set the rotation of the section progress|Float|
-|`Scale`|Set the scale of the section progress|Float|
+|`Enable`|Activa la barra progreso|Toggle|
+|`Position`|Establece la posición de la barra de progreso|Vector2|
+|`Rotation`|Establece la rotación de la barra de progreso|Float|
+|`Scale`|Establece el tamaño de la barra de progreso|Float|
