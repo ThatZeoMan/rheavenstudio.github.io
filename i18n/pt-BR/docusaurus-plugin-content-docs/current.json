@@ -1,18 +1,18 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Próximo",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Exploring Heaven Studio": {
-    "message": "Exploring Heaven Studio",
+    "message": "Explorando o Heaven Studio",
     "description": "The label for category Exploring Heaven Studio in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Settings": {
-    "message": "Settings",
+    "message": "Configurações",
     "description": "The label for category Settings in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Creating a Remix": {
-    "message": "Creating a Remix",
+    "message": "Criando um Remix",
     "description": "The label for category Creating a Remix in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Minigames": {

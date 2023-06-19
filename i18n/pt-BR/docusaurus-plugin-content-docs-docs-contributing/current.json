@@ -1,14 +1,14 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Próximo",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Setting up the project": {
-    "message": "Setting up the project",
+    "message": "Configurando o projeto",
     "description": "The label for category Setting up the project in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installing Git": {
-    "message": "Installing Git",
+    "message": "Instalando o Git",
     "description": "The label for category Installing Git in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Windows": {
@@ -32,11 +32,11 @@
     "description": "The label for category Linux in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Installing Unity": {
-    "message": "Installing Unity",
+    "message": "Instalando a Unity",
     "description": "The label for category Installing Unity in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Opening the project in Unity": {
-    "message": "Opening the project in Unity",
+    "message": "Abrindo o projeto na Unity",
     "description": "The label for category Opening the project in Unity in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Guidelines": {

@@ -12,11 +12,11 @@
     "description": "Navbar item with label Editor"
   },
   "item.label.Tips": {
-    "message": "Tips",
+    "message": "Dicas",
     "description": "Navbar item with label Tips"
   },
   "item.label.Contributing": {
-    "message": "Contributing",
+    "message": "Contribuindo",
     "description": "Navbar item with label Contributing"
   }
 }
