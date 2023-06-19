@@ -2,13 +2,13 @@
 sidebar_position: 4
 ---
 
-# Controllers
+# Controles
 
-Under this tab in Settings, you can change the controller settings.
+En esta pestaña de las opciones, puedes cambiar las opciones del control/mando.
 
 ![ui](/img/docs/hsui/settings/controllers.png)
 
-|Setting|Description|Value|
+|Opción|Descripción|Valor|
 |---|---|---|
-|`Connect Controllers`|Connect controllers to Heaven Studio|N/A|
-|`Select Controller`|Set the controller used by Heaven Studio for gameplay|List|
+|`Connect Controllers`|Conecta un control/mando a Heaven Studio|N/A|
+|`Select Controller`|Escoge el control/mando a usar para Heaven Studio|List|

@@ -2,21 +2,21 @@
 sidebar_position: 1
 ---
 
-# Display & Audio Settings
+# Opciones de Audio y Video
 
-Under this tab in Settings, you can change the display and audio options.
+En esta pestaña de las opciones, puedes cambiar las opciones de audio y video.
 
 ![ui](/img/docs/hsui/settings/display.png)
 
-|Setting|Description|Value|
+|Opción|Descripición|Valor|
 |---|---|---|
-|`Toggle Fullscreen`|Set the Heaven Studio window to fullscreen|Toggle|
-|`Default Resolution`|Set the Heaven Studio window's resolution|Preset/Custom|
-|`Master Volume`|Set Heaven Studio's volume|`1%`-`100%`|
+|`Toggle Fullscreen`|Activa el modo pantalla completa para Heaven Studio|Toggle|
+|`Default Resolution`|Establece la resolución de Heaven Studio|Preset/Custom|
+|`Master Volume`|Establece el volumen de Heaven Studio|`1%`-`100%`|
 
-#### Advanced Audio
+#### Audio avanzado
 
-|Setting|Description|Value|
+|Opción|Descripición|Valor|
 |---|---|---|
-|`DSP Buffer Size`|Set the DSP buffer size|`128`-`1024`|
-|`Sample Rate`|Set the audio's sample rate|`22050`-`96000`|
+|`DSP Buffer Size`|Establece el tamaño del búfer DSP|`128`-`1024`|
+|`Sample Rate`|Establece el radio de frecuencia del audio|`22050`-`96000`|

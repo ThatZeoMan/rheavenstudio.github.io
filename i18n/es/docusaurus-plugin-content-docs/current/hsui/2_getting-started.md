@@ -2,30 +2,30 @@
 sidebar_position: 2
 ---
 
-# UI Overview
+# Sumario de la IU
 
-Heaven Studio's UI is simple enough for anyone to use. Main editor elements are explained below.
+La interfaz del usuario de Heaven Studio es lo suficientemente simple para el uso de cualquiera. Los elementos principales del editor están explicados a continuación.
 
 ![ui](/img/docs/ui.png)
 
-**1. The game preview menu.** Here, you will see the preview of your remix being played.
+**1. Menú de vista previa del juego.** Aquí verás una vista previa del remix que estés realizando.
 
-**2. File actions.** In order, these actions are: New Remix, Open Remix, Save Remix.
+**2. Opciones de archivos.** En orden, estas opciones son: Remix Nuevo, Abrir un Remix, Guardar Remix.
 
-**3. Music related actions.** In order, these actions are: Tempo Finder, Music Select.
+**3. Opciones sobre la música.** En orden, estas opciones son: Busca-tempo*, Selección de Música.
 
-**4. Song offset.** Set how much time (in milliseconds) between the start of the audio file and the first beat.
+**4. Offset de la canción.** Establece el tiempo (en milisegundos) en que empieza a sonar el primer beat de tu canción.
 
-**5. Timeline.** This is where you chart your remix by placing events.
+**5. Línea de tiempo.** Aquí es donde elaboras tu remix a partir de colocar eventos de juego.
 
-**6. Special Entities info.** By default, this is set to BPM (changeable from n.11).
+**6. Detalles de las Entidades Especiales.** Por defecto aparece el BPM (Reemplazable por los del núm.11).
 
-**7. Minigames.** Click on a minigame to view it's events (n.11). Minigames are organized alphabetically.
+**7. Minijuegos.** Haz click en un minijuego para ver sus eventos (núm.11). Los minijuegos se encuentran en orden alfabético.
 
-**8. Event selection.** Scroll or use arrow keys to select an event, then drag it onto the Timeline (n.5) to place it.
+**8. Selección de eventos.** Usa la rueda del ratón o las flechas de tu teclado para seleccionar un evento, luego arrástralo hacia la Línea de tiempo (núm.5) para colocarlo.
 
-**9. Timeline tools.** In order, these tools are: Zoom In, Zoom Out, Reset Zoom, Toggle Waveform, Change Snapping.
+**9. Opciones de la Línea de tiempo.** En orden, estas opciones son: Acercar, Alejar, Restablecer Zoom, Activar espectro, Cambiar divisiones de beat.
 
-**10. Gameplay tools.** In order, these tools are: Autoplay, Metronome, Fullscreen Preview.
+**10. Opciones de juego.** En orden, estas opciones son: Juego automático, Metrónomo, Vista Previa en Pantalla Completa.
 
-**11. Special entities tools.** In order, these tools are: Selection, Tempo change, Music volume, Beatmap section**
+**11. Opciones de Entidades Especiales.** En orden, estas opciones son: Seleccionar, Cambio de Tempo, Volumen de la música, Sección de Beatmap**
