@@ -8,7 +8,6 @@ This can get a bit hard for the average MacOS user, but stick with me here.
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-Please note when it asks for your password, put your MacOS login password, the password is hidden while you type it due to security and privacy reasons, remember to press enter on your keyboard after you enter your password.
 
 ### Installing Git
 After Brew finishes installing, you can install Git.
@@ -17,7 +16,7 @@ After Brew finishes installing, you can install Git.
 ```sh
 sudo brew install git
 ```
-3. Congratulations, you got Git installed on your MacOS machine. God forbid you think this is pseudoscience.
+3. Congratulations, you got Git installed on your MacOS machine.
 
 ## Cloning the repository
 1. Open your fork on GitHub.
